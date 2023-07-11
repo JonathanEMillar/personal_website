@@ -2,18 +2,24 @@ project:
   type: website
 
 website:
-  title: "personal_website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: ""
+  site-url: https://jemillar.io
+  description: "The genomics of ARDS"
+  twitter-card:
+    creator: "@jemillarni"
 
+  navbar:
+    background: primary
+    logo: "images/cartoon_small.png"
+    align: left
+
+    right:
+      - text: "Home"
+        href: docs/home/index.qmd
+
+  page-footer:
+    left: "© Copyright 2022 Jonathan Millar. Licensed CC-BY-NC 4.0."
 format:
   html:
-    theme: cosmo
+    theme: [sandstone]
     css: styles.css
-    toc: true
-
-editor: visual
-

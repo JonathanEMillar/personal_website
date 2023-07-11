@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "docs/home/index.html",
+    "href": "docs/home/index.html",
+    "title": "Johnny Millar",
+    "section": "",
+    "text": "Jonathan Millar is a Senior Clinical Research Fellow in Intensive Care Medicine at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth II University Hospital, Glasgow.\nHis research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (Precision Cut Lung Slices, Ex-vivo Lung Perfusion, and complex large animal models).\nHe completed his PhD with Prof John Fraser (University of Queensland) and Prof Danny McAuley (Queen’s University Belfast), studying the role of mesenchymal stem cells and ECMO in ARDS.\nSince moving to Edinburgh in 2020, he has worked with Prof Kenneth Baillie at the Roslin Institute and the Baillie Gifford Pandemic Science Hub.\nHe has contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and is working to develop in-silico and in-vitro platforms to better understand the functional genomics underpinning acute severe respiratory failure.\n\n\n\n\nSelected Publications\nGWAS and meta-analyses identifies 49 genetic variants underlying critical COVID-19. Pairo-Castineira E, Rawlik K, Bretherick AD, …, Millar JE, …, Baillie JK. 2023. Nature, 617(7962):764-768. https://doi.org/10.1038/s41586-023-06034-3\nDistinct clinical symptom patterns in patients hospitalised with COVID-19 in an analysis of 59,011 patients in the ISARIC-4C study. Millar JE, Neyton L, Seth S, et. al.  2022. Sci. Rep., 12, 6843. https://doi.org/10.1038/s41598-022-08032-3\nCharacterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: an experimental ovine study. Millar JE,Wildi K,Bartnikowski N,et. al.  2021. Physiol. Rep., 9(19):e15048. https://doi.org/10.14814/phy2.15048\nCombined mesenchymal stromal cell therapy and ECMO in ARDS: a randomised controlled trial in sheep. Millar JE, Bartnikowski N, Passmore MR, et. al.  2020. Am. J. Respir. Crit. Care Med., 202(3):383-392. https://doi.org/10.1164/rccm.201911-2143OC\n\n\n\nSelected Software\nARDSMAICR | R | ARDS Meta-analysis by information content | 2023\nPubmed CLI | Python | CLI for PubMed | 2023"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
