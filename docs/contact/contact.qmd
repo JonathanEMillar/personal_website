@@ -1,0 +1,58 @@
+---
+title: ""
+editor: visual
+---
+
+#### Baillie Gifford Pandemic Science Hub
+
+<br />
+
+Institute for Repair & Regeneration
+
+5 Little France Drive
+
+Edinburgh
+
+EH16 4UU
+
+United Kingdom
+
+<i class="bi bi-telephone"></i> +44 (0)131 651 9514
+
+```{r}
+#| echo: false
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lat=55.92081, lng=-3.130734726982889, popup="Baillie Gifford Pandemic Science Hub")
+```
+
+<br />
+
+<br />
+
+<br />
+
+#### The Roslin Institute
+
+<br />
+
+Baillie Lab
+
+The Roslin Institute
+
+Easter Bush Campus
+
+Midlothian
+
+EH25 9RG
+
+<i class="bi bi-telephone"></i> +44 (0)131 651 9100
+
+```{r}
+#| echo: false
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lat=55.865734832071944, lng=-3.198557142327629, popup="The Roslin Institute")
+```

@@ -2,7 +2,7 @@
 title: ""
 page-layout: full
 toc: true
-toc-title: Software
+toc-title: Software/Data
 toc-depth: 4
 toc-expand: false
 toc-location: left
@@ -10,13 +10,13 @@ comments: false
 editor: visual
 ---
 
-### R
+### R packages
 
 ------------------------------------------------------------------------
 
 <br />
 
-#### [ARDSMAICR](https://github.com/baillielab/ARDSMAICr)
+#### [<i class="bi bi-github"></i>](https://github.com/baillielab/ARDSMAICr) ARDSMAICR 
 
 <br />
 
@@ -24,7 +24,7 @@ editor: visual
 
 <br />
 
-The ARDSMAICR package contains the results of a meta-analysis by information content (MAIC) of whole-genome studies of the host response to acute respiratory distress syndrome (ARDS). These data are accompanied by a range of helper functions useful for analysis.
+The ARDSMAICR package contains the results of a meta-analysis by information content (MAIC) of genome-wide studies of the host response to acute respiratory distress syndrome (ARDS). These data are accompanied by a range of helper functions useful for analysis.
 
 [Documentation](https://baillielab.github.io/ARDSMAICr/)
 
@@ -36,7 +36,7 @@ The ARDSMAICR package contains the results of a meta-analysis by information con
 
 <br />
 
-#### [PubMed CLI](https://github.com/JonathanEMillar/pubmed_cli)
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/pubmed_cli) PubMed CLI 
 
 <br />
 
@@ -64,7 +64,7 @@ Features:
 
 <br />
 
-#### [ARDS Genomics website](https://baillielab.net/maic/ards/docs/home/)
+#### [<i class="bi bi-link"></i>](https://baillielab.net/maic/ards/docs/home/) ARDS Genomics website 
 
 <br />
 
@@ -72,8 +72,30 @@ Features:
 
 <br />
 
-#### [PANTHER intervention selection website](https://panthertrial.netlify.app/docs/home/index.html)
+#### [<i class="bi bi-link"></i>](https://panthertrial.netlify.app/docs/home/index.html) PANTHER intervention selection website 
 
 <br />
 
 ![](panther.png){width="50%" height="50%" fig-align="center"}
+
+<br />
+
+### Data
+
+------------------------------------------------------------------------
+
+<br />
+
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Combining-ECMO-and-MSCs-for-ARDS) Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep 
+
+<br />
+
+Physiological and biochemical data presented in <https://doi.org/10.1164/rccm.201911-2143OC>
+
+<br />
+
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Pre-clinical-ARDS-sub-phenotypes) Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study 
+
+<br />
+
+Data and code to reproduce the analysis presented in <https://doi.org/10.14814/phy2.15048>

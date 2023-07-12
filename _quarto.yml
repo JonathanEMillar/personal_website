@@ -7,25 +7,50 @@ website:
   description: "The genomics of ARDS"
   twitter-card:
     creator: "@jemillarni"
+  favicon: images/favicon.png
 
   navbar:
     background: primary
-    logo: "images/cartoon_small.png"
     align: left
 
-    right:
-      - text: "Home"
+    left:
+      - icon: house-door
+        text: "Home"
         href: docs/home/index.qmd
-      - text: "Projects"
-        href: docs/home/projects/projectlist.qmd
-      - text: "Publications"
+      - icon: stickies
+        text: "Projects"
+        href: docs/projects/projectlist.qmd
+      - icon: book
+        text: "Publications"
         href: docs/papers/publist.qmd
-      - text: "Software/Web"
+      - icon: terminal
+        text: "Software/Data"
         href: docs/software/softlist.qmd
+      - icon: person-rolodex
+        text: "Contact"
+        href: docs/contact/contact.qmd
+
+    right:
+      - icon: file-earmark-person
+        text: "CV"
+        href: cv.pdf
+      - icon: github
+        href: https://github.com/JonathanEMillar
+      - icon: twitter
+        href: https://twitter.com/jemillarni
+      - icon: envelope
+        href: mailto:jonathan.millar@ed.ac.uk
 
   page-footer:
     left: "© Copyright 2022 Jonathan Millar. Licensed CC-BY-NC 4.0."
+    right:
+      - icon: code
+        href: https://github.com/JonathanEMillar/personal_website
+
 format:
   html:
-    theme: [sandstone]
+    theme:
+      light: [materia]
+      dark: [darkly]
     css: styles.css
+

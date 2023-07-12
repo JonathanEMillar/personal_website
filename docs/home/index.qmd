@@ -11,9 +11,8 @@ about:
       icon: github
       url: "https://github.com/JonathanEMillar"
     - text: Email
+      icon: envelope
       url: "mailto:jonathan.millar@ed.ac.uk"
-    - text: CV
-      url: "cv.pdf"
 comments: false
 ---
 
@@ -23,40 +22,9 @@ Jonathan Millar is a Senior Clinical Research Fellow at the University of Edinbu
 
 His research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (precision cut lung slices, *ex-vivo* lung perfusion, and complex large animal models).
 
-He completed his PhD with Prof John Fraser (University of Queensland) and Prof Danny McAuley (Queen’s University Belfast), studying the role of mesenchymal stem cells and ECMO in ARDS.
+He completed his PhD with Prof John Fraser and Prof Danny McAuley, studying the role of mesenchymal stem cells and ECMO in ARDS.
 
 Since moving to Edinburgh in 2020, he has worked with Prof Kenneth Baillie at the Roslin Institute and the Baillie Gifford Pandemic Science Hub. 
 
 He has contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and is working to develop *in-silico* and *in-vitro* platforms to better understand the functional genomics underpinning acute severe respiratory failure.
-
-<p></p>
-
-<br />
-
-#### Selected Publications
-
-**GWAS and meta-analyses identifies 49 genetic variants underlying critical COVID-19.** Pairo-Castineira E, Rawlik K, Bretherick AD, ..., Millar JE, ..., Baillie JK. 
-2023. Nature, 617(7962):764-768. [https://doi.org/10.1038/s41586-023-06034-3](https://doi.org/10.1038/s41586-023-06034-3)
-
-**Distinct clinical symptom patterns in patients hospitalised with COVID-19 in an analysis of 59,011 patients in the ISARIC-4C study.** 
-Millar JE, Neyton L, Seth S, et. al. 
-2022. Sci. Rep., 12, 6843. 
-[https://doi.org/10.1038/s41598-022-08032-3](https://doi.org/10.1038/s41598-022-08032-3)
-
-**Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: an experimental ovine study.** 
-Millar JE, Wildi K, Bartnikowski N, et. al. 
-2021. Physiol. Rep., 9(19):e15048. 
-[https://doi.org/10.14814/phy2.15048](https://doi.org/10.14814/phy2.15048)
-
-**Combined mesenchymal stromal cell therapy and ECMO in ARDS: a randomised controlled trial in sheep.** 
-Millar JE, Bartnikowski N, Passmore MR, et. al. 
-2020. Am. J. Respir. Crit. Care Med., 202(3):383-392. [https://doi.org/10.1164/rccm.201911-2143OC](https://doi.org/10.1164/rccm.201911-2143OC)
-
-<br />
-
-#### Selected Software
-
-**[ARDSMAICR](https://github.com/baillielab/ARDSMAICr)** | R | ARDS meta-analysis by information content | 2023 
-
-**[Pubmed CLI](https://github.com/JonathanEMillar/pubmed_cli/)** | Python | CLI for PubMed | 2023 
 :::

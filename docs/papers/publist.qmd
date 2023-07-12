@@ -16,7 +16,7 @@ editor: visual
 
 [Google Scholar](https://scholar.google.com/citations?user=I8I6g0IAAAAJ&hl=en&oi=ao)
 
-<br />
+[ORCID](https://orcid.org/0000-0002-4853-9377)
 
 #### **2023**
 
@@ -30,6 +30,8 @@ GWAS and meta-analyses identifies 49 genetic variants underlying critical COVID-
 
 <https://doi.org/10.1038/s41586-023-06034-3>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41586-023-06034-3.pdf)
+
 <br />
 
 See Hoe LE, Li Bassi G, Wildi K, ..., **Millar JE**, ..., Fraser JF.
@@ -39,6 +41,8 @@ Donor heart ischemic time can be extended to 8 hours using hypothermic machine p
 **J. Heart Lung Transplant.**, S1053-2498(23)01819-3.
 
 <https://doi.org/10.1016/j.healun.2023.03.020>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/PIIS1053249823018193.pdf)
 
 <br />
 
@@ -54,6 +58,8 @@ Extracorporeal carbon dioxide removal in acute hypoxaemic respiratory failure: a
 
 <https://doi.org/10.1183/16000617.0030-2022>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/220030.pdf)
+
 <br />
 
 Wildi K, Hyslop K, **Millar JE**, et. al.
@@ -63,6 +69,8 @@ Validation of mRNA markers expressed in human ARDS subgroups in an ovine model o
 **Front. Med.**, 9:961336.
 
 <https://doi.org/10.3389/fmed.2022.961336>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/fmed-09-961336.pdf)
 
 <br />
 
@@ -74,6 +82,8 @@ Distinct clinical symptom patterns in patients hospitalised with COVID-19 in an 
 
 [https://doi.org/10.1038/s41598-022-08032-30](https://doi.org/10.1038/s41598-022-08032-3)
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41598-022-08032-3.pdf)
+
 <br />
 
 Kousathanas A, Pairo-Castineira E, Rawlik K, ..., **Millar JE**, ..., Baillie JK.
@@ -83,6 +93,8 @@ Whole genome sequencing reveals host factors underlying critical COVID-19.
 **Nature**, 607(7917):97-103.
 
 <https://doi.org/10.1038/s41586-022-04576-6>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41586-022-04576-6.pdf)
 
 <br />
 
@@ -94,6 +106,8 @@ Clinical characteristics, risk factors and outcomes in patients with severe COVI
 
 <https://doi.org/10.1183/23120541.00552-2021>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/00552-2021.full.pdf)
+
 <br />
 
 Winslow RL, Zhou J, Windle EF, ..., **Millar JE**, ...Green CA.
@@ -103,6 +117,8 @@ SARS-CoV-2 environmental contamination from hospitalised patients with COVID-19 
 **Thorax**, 77(3):259-267.
 
 <https://doi.org/10.1136/thoraxjnl-2021-218035>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/259.pdf)
 
 <br />
 
@@ -117,6 +133,8 @@ An appraisal of respiratory system compliance in mechanically ventilated COVID-1
 **Crit. Care**, 25: 199.
 
 <https://doi.org/10.1186/s13054-021-03518-4>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s13054-021-03518-4.pdf)
 
 <br />
 
@@ -138,6 +156,8 @@ Histological evidence of pulmonary microthrombosis and vasculitis in life-threat
 
 <https://doi.org/10.1093/ofid/ofaa640>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/ofaa640.pdf)
+
 <br />
 
 Ki KK, **Millar JE**, Langguth D, et. al.
@@ -148,6 +168,8 @@ Current understanding of leukocyte phenotypic and functional modulation during e
 
 <https://doi.org/10.3389/fimmu.2020.600684>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/fimmu-11-600684.pdf)
+
 <br />
 
 Fulton R, **Millar JE**, Merza M, et. al.
@@ -156,7 +178,7 @@ Prophylactic postoperative high flow nasal oxygen versus conventional therapy in
 
 **Obes. Surg.**, 31(11):47994807.
 
-[https://doi.org/10.1007/s11695-021-05644-y](https://doi.org/10.1007/s11695-021-05644-y%5D)
+<https://doi.org/10.1007/s11695-021-05644-y>
 
 <br />
 
@@ -168,6 +190,8 @@ Characterizing preclinical sub-phenotypic models of acute respiratory distress s
 
 <https://doi.org/10.14814/phy2.15048>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/Characterizingpreclinical.pdf)
+
 <br />
 
 See Hoe LE, Wildi K, Obonyo NG, ..., **Millar JE**, ..., Fraser JF.
@@ -177,6 +201,8 @@ A clinically relevant sheep model of orthotopic heart transplantation 24 h after
 **Intensive Care Med. Exp.**, 9(1):60.
 
 <https://doi.org/10.1186/s40635-021-00425-4>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s40635-021-00425-4.pdf)
 
 <br />
 
@@ -188,6 +214,8 @@ Genetic mechanisms of critical illness in COVID-19.
 
 <https://doi.org/10.1038/s41586-020-03065-y>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41586-020-03065-y.pdf)
+
 <br />
 
 COVID-19 Host Genetics Initiative.
@@ -197,6 +225,8 @@ Mapping the human genetic architecture of COVID-19.
 **Nature**, 600(7889):472-477.
 
 <https://doi.org/10.1038/s41586-021-03767-x>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41586-021-03767-x.pdf)
 
 <br />
 
@@ -212,6 +242,8 @@ Dynamic data-driven meta-analysis for prioritisation of host genes implicated in
 
 <https://doi.org/10.1038/s41598-020-79033-3>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41598-020-79033-3.pdf)
+
 <br />
 
 Soulsby CR, Hutchison, Gardner J, ..., **Millar JE**.
@@ -220,7 +252,9 @@ Socio-economic deprivation and the risk of death after ICU admission with COVID-
 
 **J. Intensive Care Soc.**,
 
-<https://doi.org/10.1177/175114372097>
+<https://doi.org/10.1177/1751143720978855>
+
+[<i class="bi bi-filetype-pdf"></i>F](pdf/poorrelation.pdf)
 
 <br />
 
@@ -230,7 +264,7 @@ Mesenchymal stromal cells for acute respiratory distress syndrome (ARDS), sepsis
 
 **Expert Rev. Respir. Med.**, 15(3):301-324.
 
-<https://doi.org/110.1080/17476348.2021.1848555>
+<https://doi.org/10.1080/17476348.2021.1848555>
 
 <br />
 
@@ -242,6 +276,8 @@ Propofol target-controlled infusion in emergency department sedation (Peo-TEDS):
 
 <https://doi.org/10.1136/emermed-2020-209686>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/205.pdf)
+
 <br />
 
 Li Bassi G, Suen JY, Barnett AG, ..., **Millar J**, ..., Fraser JF.
@@ -251,6 +287,8 @@ Design and rationale of the COVID-19 Critical Care Consortium international, mul
 **BMJ Open**, 10(12):e041417.
 
 <https://doi.org/10.1136/bmjopen-2020-041417>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/e041417.pdf)
 
 <br />
 
@@ -262,15 +300,19 @@ Heart failure supported by veno-arterial extracorporeal membrane oxygenation (EC
 
 <https://doi.org/10.1186/s40635-020-00303-5>
 
+[<i class="bi bi-filetype-pdf"></i>](pdf/s40635-020-00303-5.pdf)
+
 <br />
 
 Malfertheiner MV, Koch C, Fisser C, **Millar JE**, et. al.
 
 Incidence of early intra-cranial bleeding and ischaemia in adult veno-arterial extracorporeal membrane oxygenation and extracorporeal cardiopulmonary resuscitation patients: a retrospective analysis of risk factors.
 
-**Perfusion**, 35(1 suppl):8-17.
+**Perfusion**, 35(1_suppl):8-17.
 
 <https://doi.org/10.1177/0267659120907438>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/malfertheiner.pdf)
 
 <br />
 
@@ -278,9 +320,11 @@ Malfertheiner MV, Broman LM, Vercaemst L, ..., **Millar JE**, ..., Fraser JF.
 
 Ex vivo models for research in extracorporeal membrane oxygenation: a systematic review of the literature.
 
-**Perfusion**, 35(1suppl):38-49.
+**Perfusion**, 35(1_suppl):38-49.
 
 <https://doi.org/10.1177/0267659120907439>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/malfertheiner2.pdf)
 
 <br />
 
@@ -289,6 +333,8 @@ Ex vivo models for research in extracorporeal membrane oxygenation: a systematic
 Combined mesenchymal stromal cell therapy and ECMO in ARDS: a randomised controlled trial in sheep. **Am. J. Respir. Crit. Care Med.**, 202(3):383-392.
 
 <https://doi.org/10.1164/rccm.201911-2143OC>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/201911-2143oc.pdf)
 
 <br />
 
@@ -299,6 +345,8 @@ Heart Transplantation From Brain Dead Donors: A Systematic Review of Animal Mode
 **Transplantation**, 104(11):2272-2289.
 
 <https://doi.org/10.1097/TP.0000000000003217>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/16.pdf)
 
 <br />
 
@@ -316,83 +364,93 @@ Effect of target-controlled propofol infusion to reduce the incidence of adverse
 
 ------------------------------------------------------------------------
 
-Ki KK, Passmore MR, Chan CHH, ..., **Millar JE**, ..., Suen JY. 
+Ki KK, Passmore MR, Chan CHH, ..., **Millar JE**, ..., Suen JY.
 
-Low flow rate alters haemostatic parameters in an ex-vivo extracorporeal membrane oxygenation circuit. 
+Low flow rate alters haemostatic parameters in an ex-vivo extracorporeal membrane oxygenation circuit.
 
 **Intensive Care Med. Exp.**, 7:51.
 
-[https://doi.org/10.1186/s40635-019-0264-z](https://doi.org/10.1186/s40635-019-0264-z])
+<https://doi.org/10.1186/s40635-019-0264-z>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s40635-019-0264-z.pdf)
 
 <br />
 
-**Millar JE**, Bartnikowski N, von Bahr V, et. al. 
+**Millar JE**, Bartnikowski N, von Bahr V, et. al.
 
-Extracorporeal membrane oxygenation (ECMO) and the acute respiratory distress syndrome (ARDS): a systematic review of pre-clinical models. 
+Extracorporeal membrane oxygenation (ECMO) and the acute respiratory distress syndrome (ARDS): a systematic review of pre-clinical models.
 
 **Intensive Care Med. Exp.**, 7(1):18.
 
-[https://doi.org/10.1186/s40635-019-0232-7](https://doi.org/10.1186/s40635-019-0232-7)
+<https://doi.org/10.1186/s40635-019-0232-7>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s40635-019-0232-7.pdf)
 
 <br />
 
-von Bahr, **Millar JE**, Malfertheiner MV, et. al. 
+von Bahr, **Millar JE**, Malfertheiner MV, et. al.
 
-Mesenchymal stem cells may ameliorate inflammation in an ex-vivo model of extracorporeal membrane oxygenation. 
+Mesenchymal stem cells may ameliorate inflammation in an ex-vivo model of extracorporeal membrane oxygenation.
 
 **Perfusion**, 34(1suppl):15-21.
 
-[https://doi.org/10.1177/0267659119830857](https://doi.org/10.1177/0267659119830857)
+<https://doi.org/10.1177/0267659119830857>
 
 <br />
 
-von Bahr V, Kalzen H, Frenckner B, ..., **Millar JE**, ..., Holzgraefe B. 
+von Bahr V, Kalzen H, Frenckner B, ..., **Millar JE**, ..., Holzgraefe B.
 
-Long-term pulmonary function and quality of life in adults after extracorporeal membrane oxygenation for respiratory failure. 
+Long-term pulmonary function and quality of life in adults after extracorporeal membrane oxygenation for respiratory failure.
 
 **Perfusion**, 34(1suppl):49-57.
 
-[https://doi.org/10.1177/0267659119830244](https://doi.org/10.1177/0267659119830244)
+<https://doi.org/10.1177/0267659119830244>
 
 <br />
 
-Obonyo NG, Byrne L, Tung JP, ..., **Millar JE**, ..., Fraser JF. 
+Obonyo NG, Byrne L, Tung JP, ..., **Millar JE**, ..., Fraser JF.
 
-Pre-clinical study protocol: Blood transfusion in endotoxaemic shock. 
+Pre-clinical study protocol: Blood transfusion in endotoxaemic shock.
 
 **Methods X**, 6:1124--1132.
 
-[https://doi.org/10.1016/j.mex.2019.05.005](https://doi.org/10.1016/j.mex.2019.05.005)
+<https://doi.org/10.1016/j.mex.2019.05.005>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/PIIS2215016119301244.pdf)
 
 <br />
 
-Burton FM, Lowe DJ, **Millar J**, et. al. 
+Burton FM, Lowe DJ, **Millar J**, et. al.
 
-A study protocol for a feasibility study: Propofol Target-Controlled Infusion in Emergency Department Sedation (PRoTEDS) -- a multicentre feasibility study protocol. 
+A study protocol for a feasibility study: Propofol Target-Controlled Infusion in Emergency Department Sedation (PRoTEDS) -- a multicentre feasibility study protocol.
 
 **Pilot Feasibility Stud.**, 5:27.
 
-[https://doi.org/10.1186/s40814-019-0412-y](https://doi.org/10.1186/s40814-019-0412-y)
+<https://doi.org/10.1186/s40814-019-0412-y>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s40814-019-0412-y.pdf)
 
 <br />
 
 Fanning JP, SeeHoe LE, Passmore MR, ..., **Millar JE**, ..., Fraser JF.
 
-Neuron-Specific Enolase and matrix metalloproteinase 9 signal perioperative silent brain infarction during or after transcatheter aortic valve implantation. 
+Neuron-Specific Enolase and matrix metalloproteinase 9 signal perioperative silent brain infarction during or after transcatheter aortic valve implantation.
 
 **Am. J. Cardiol.**, 123(3):434-439.
 
-[https://doi.org/10.1016/j.amjcard.2018.10.022](https://doi.org/10.1016/j.amjcard.2018.10.022)
+<https://doi.org/10.1016/j.amjcard.2018.10.022>
 
 <br />
 
-**Millar JE**, von Bahr V, Malfertheiner MV, et. al. 
+**Millar JE**, von Bahr V, Malfertheiner MV, et. al.
 
-Administration of mesenchymal stem cells during ECMO results in a rapid decline in oxygenator performance. 
+Administration of mesenchymal stem cells during ECMO results in a rapid decline in oxygenator performance.
 
 **Thorax**, 74(2):194-196.
 
-[http://dx.doi.org/10.1136/thoraxjnl-2017-211439](http://dx.doi.org/10.1136/thoraxjnl-2017-211439)
+<http://dx.doi.org/10.1136/thoraxjnl-2017-211439>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/194.pdf)
 
 <br />
 
@@ -400,23 +458,25 @@ Administration of mesenchymal stem cells during ECMO results in a rapid decline 
 
 ------------------------------------------------------------------------
 
-Fulton R, **Millar JE**, Merza M, et. al. 
+Fulton R, **Millar JE**, Merza M, et. al.
 
-High flow nasal oxygen after bariatric (OXYBAR), prophylactic post-operative high flow nasal oxygen versus conventional oxygen therapy in obese patients undergoing bariatric surgery: a study protocol for a randomised controlled pilot trial. 
+High flow nasal oxygen after bariatric (OXYBAR), prophylactic post-operative high flow nasal oxygen versus conventional oxygen therapy in obese patients undergoing bariatric surgery: a study protocol for a randomised controlled pilot trial.
 
 **Trials**, 19(1):402.
 
-[http://dx.doi.org/10.1007/s11695-021-05644-y](http://dx.doi.org/10.1007/s11695-021-05644-y)
+<http://dx.doi.org/10.1007/s11695-021-05644-y>
 
 <br />
 
-Fanning JP, See Hoe LE, Passmore MR, ..., **Millar JE**, ..., Fraser JF. 
+Fanning JP, See Hoe LE, Passmore MR, ..., **Millar JE**, ..., Fraser JF.
 
-Differential immunological profiles herald magnetic resonance imaging-defined perioperative cerebral infarction. 
+Differential immunological profiles herald magnetic resonance imaging-defined perioperative cerebral infarction.
 
 **Ther. Adv. Neurol. Dis.**, 11:1756286418759493.
 
-[http://dx.doi.org/110.1177/1756286418759493](http://dx.doi.org/110.1177/1756286418759493)
+<http://dx.doi.org/10.1177/1756286418759493>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/fanning.pdf)
 
 <br />
 
@@ -424,13 +484,13 @@ Differential immunological profiles herald magnetic resonance imaging-defined pe
 
 ------------------------------------------------------------------------
 
-Malfertheiner MV, Pimenta LP, von Bahr V, **Millar JE**, et. al. 
+Malfertheiner MV, Pimenta LP, von Bahr V, **Millar JE**, et. al.
 
-Acquired von Willebrand syndrome in respiratory extracorporeal life support: a systematic review of the literature. 
+Acquired von Willebrand syndrome in respiratory extracorporeal life support: a systematic review of the literature.
 
 **Crit. Care Resusc.**, 19(Suppl 1):45-52.
 
-[https://pubmed.ncbi.nlm.nih.gov/29084501/](https://pubmed.ncbi.nlm.nih.gov/29084501/)
+<https://pubmed.ncbi.nlm.nih.gov/29084501/>
 
 <br />
 
@@ -438,33 +498,35 @@ Acquired von Willebrand syndrome in respiratory extracorporeal life support: a s
 
 ------------------------------------------------------------------------
 
-**Millar JE**, Fanning JP, McDonald CI, et. al. 
+**Millar JE**, Fanning JP, McDonald CI, et. al.
 
-The inflammatory response to extracorporeal membrane oxygenation (ECMO): a review of the pathophysiology. 
+The inflammatory response to extracorporeal membrane oxygenation (ECMO): a review of the pathophysiology.
 
 **Crit. Care**, 20:387.
 
-[https://doi.org/10.1186/s13054-016-1570-4](https://doi.org/10.1186/s13054-016-1570-4)
+<https://doi.org/10.1186/s13054-016-1570-4>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s13054-016-1570-4.pdf)
 
 <br />
 
-Devaney J, Smyth R, Lutton S, ..., **Millar JE**. 
+Devaney J, Smyth R, Lutton S, ..., **Millar JE**.
 
-The soda dipstick: A convenient and cost-effective means of identifying the sugar content of soft drinks. 
+The soda dipstick: A convenient and cost-effective means of identifying the sugar content of soft drinks.
 
 **J. Diabetes**, 8(6):877-878.
 
-[https://doi.org/10.1111/1753-0407.12431](https://doi.org/10.1111/1753-0407.12431)
+<https://doi.org/10.1111/1753-0407.12431>
 
 <br />
 
 Lowe DJ, **Millar JE**, Dignon N, Ireland A.
 
-Top 10 lessons from the Glasgow major incidents. 
+Top 10 lessons from the Glasgow major incidents.
 
 **Emerg. Med. J.**, 33(8):596-7.
 
-[https://doi.org/10.1136/emermed-2015-205626](https://doi.org/10.1136/emermed-2015-205626)
+<https://doi.org/10.1136/emermed-2015-205626>
 
 <br />
 
@@ -472,23 +534,27 @@ Top 10 lessons from the Glasgow major incidents.
 
 ------------------------------------------------------------------------
 
-Fitzgerald M, **Millar J**, Blackwood B, et. al. 
+Fitzgerald M, **Millar J**, Blackwood B, et. al.
 
-Extracorporeal carbon dioxide removal for patients with acute respiratory failure secondary to the Acute Respiratory Distress Syndrome: a systematic review. 
+Extracorporeal carbon dioxide removal for patients with acute respiratory failure secondary to the Acute Respiratory Distress Syndrome: a systematic review.
 
 **Crit. Care**, 18(3):222.
 
-[https://doi.org/10.1186/cc13875](https://doi.org/10.1186/cc13875)
+<https://doi.org/10.1186/cc13875>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/cc13875.pdf)
 
 <br />
 
-**Millar J**, Lutton S, O'Connor P. 
+**Millar J**, Lutton S, O'Connor P.
 
-The use of high flow nasal oxygen in the management of hypercarbic respiratory failure. 
+The use of high flow nasal oxygen in the management of hypercarbic respiratory failure.
 
 **Ther. Adv. Respir. Dis.**, 8(2):63-4.
 
-[https://doi.org/10.1177/1753465814521890](https://doi.org/10.1177/1753465814521890)
+<https://doi.org/10.1177/1753465814521890>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/millar2014.pdf)
 
 <br />
 
@@ -502,13 +568,15 @@ The use of high flow nasal oxygen in the management of hypercarbic respiratory f
 
 ------------------------------------------------------------------------
 
-**Millar JE**, McAuley DF, Marini JJ. 
+**Millar JE**, McAuley DF, Marini JJ.
 
-Driving pressure - what's the harm? 
+Driving pressure - what's the harm?
 
 **Crit. Care Med.**, 51(7): 967-970.
 
-[https://doi.org/10.1097/CCM.0000000000005874](https://doi.org/10.1097/CCM.0000000000005874)
+<https://doi.org/10.1097/CCM.0000000000005874>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/Driving_Pressure.pdf)
 
 <br />
 
@@ -516,23 +584,27 @@ Driving pressure - what's the harm?
 
 ------------------------------------------------------------------------
 
-Russell CD, **Millar JE**, Baillie JK. 
+Russell CD, **Millar JE**, Baillie JK.
 
-Clinical Evidence Does Not Support Corticosteroid Treatment for 2019-nCoV Lung Injury. 
+Clinical Evidence Does Not Support Corticosteroid Treatment for 2019-nCoV Lung Injury.
 
 **Lancet**, 395(10223): 473--475.
 
-[https://doi.org/10.1016/S0140-6736(20)30317-2](https://doi.org/10.1016/S0140-6736(20)30317-2)
+<https://doi.org/10.1016/S0140-6736(20)30317-2>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/PIIS0140673620303172.pdf)
 
 <br />
 
-**Millar JE**, Busse R, Fraser JF, et. al. 
+**Millar JE**, Busse R, Fraser JF, et. al.
 
-Apples and oranges: international comparisons of COVID-19 observational studies in ICUs. 
+Apples and oranges: international comparisons of COVID-19 observational studies in ICUs.
 
 **Lancet Respir. Med.**, 8(10):952--953.
 
-[https://doi.org/10.1016/S2213-2600(20)30368-4](https://doi.org/10.1016/S2213-2600(20)30368-4)
+<https://doi.org/10.1016/S2213-2600(20)30368-4>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/PIIS2213260020303684.pdf)
 
 <br />
 
@@ -540,13 +612,15 @@ Apples and oranges: international comparisons of COVID-19 observational studies 
 
 ------------------------------------------------------------------------
 
-**Millar JE**, Fraser JF, McAuley DF. 
+**Millar JE**, Fraser JF, McAuley DF.
 
-Mesenchymal stromal cells and the acute respiratory distress syndrome (ARDS): challenges for clinical application. 
+Mesenchymal stromal cells and the acute respiratory distress syndrome (ARDS): challenges for clinical application.
 
 **Thorax**, 70(7):611-2.
 
-[http://dx.doi.org/10.1136/thoraxjnl-2015-207121](http://dx.doi.org/10.1136/thoraxjnl-2015-207121)
+<http://dx.doi.org/10.1136/thoraxjnl-2015-207121>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/611.pdf)
 
 <br />
 
@@ -560,13 +634,13 @@ Mesenchymal stromal cells and the acute respiratory distress syndrome (ARDS): ch
 
 ------------------------------------------------------------------------
 
-**Millar JE**, Lutton S, McLaughlin R. 
+**Millar JE**, Lutton S, McLaughlin R.
 
-Need for a systematic audit of trauma care in Northern Ireland. 
+Need for a systematic audit of trauma care in Northern Ireland.
 
 **BMJ**, 353:i2025.
 
-[http://dx.doi.org/10.1136/bmj.i2025](http://dx.doi.org/10.1136/bmj.i2025)
+<http://dx.doi.org/10.1136/bmj.i2025>
 
 <br />
 
@@ -580,13 +654,13 @@ Need for a systematic audit of trauma care in Northern Ireland.
 
 ------------------------------------------------------------------------
 
-Hartley EL, **Millar JE**, Fraser JF. 
+Hartley EL, **Millar JE**, Fraser JF.
 
-The unholy blood: biomaterial interaction in extracorporeal circulation. Extracorporeal Membrane Oxygenation: An interdisciplinary problem-based learning approach. 
+The unholy blood: biomaterial interaction in extracorporeal circulation. Extracorporeal Membrane Oxygenation: An interdisciplinary problem-based learning approach.
 
 Oxford University Press.
 
-[https://doi.org/10.1093/med/9780197521304.003.0012](https://doi.org/10.1093/med/9780197521304.003.0012)
+<https://doi.org/10.1093/med/9780197521304.003.0012>
 
 <br />
 
@@ -594,10 +668,10 @@ Oxford University Press.
 
 ------------------------------------------------------------------------
 
-**Millar JE**, Gregory S, Stevens M, Fraser JF, Bartlett B. 
+**Millar JE**, Gregory S, Stevens M, Fraser JF, Bartlett B.
 
-Past, Present, and Future. Mechanical Circulatory and Respiratory Support. 
+Past, Present, and Future. Mechanical Circulatory and Respiratory Support.
 
 Academic Press (Elsevier).
 
-[https://doi.org/10.1016/B978-0-12-810491-0.00025-4](https://doi.org/10.1016/B978-0-12-810491-0.00025-4)
+<https://doi.org/10.1016/B978-0-12-810491-0.00025-4>
