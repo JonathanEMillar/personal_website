@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title></title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@jemillarni">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/cartoon_small.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/home/index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/home/projects/projectlist.qmd" rel="" target="">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../docs/papers/publist.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/software/softlist.html" rel="" target="">
+ <span class="menu-text">Software/Web</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Publications</h2>
+   
+  <ul>
+  <li><a href="#original-articles" id="toc-original-articles" class="nav-link active" data-scroll-target="#original-articles">Original articles</a>
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><strong>2023</strong></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><strong>2022</strong></a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><strong>2021</strong></a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"><strong>2020</strong></a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"><strong>2019</strong></a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"><strong>2018</strong></a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"><strong>2017</strong></a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"><strong>2016</strong></a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"><strong>2014</strong></a></li>
+  </ul></li>
+  <li><a href="#editorials" id="toc-editorials" class="nav-link" data-scroll-target="#editorials">Editorials</a>
+  <ul>
+  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"><strong>2023</strong></a></li>
+  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10"><strong>2020</strong></a></li>
+  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"><strong>2015</strong></a></li>
+  </ul></li>
+  <li><a href="#letters" id="toc-letters" class="nav-link" data-scroll-target="#letters">Letters</a>
+  <ul>
+  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12"><strong>2016</strong></a></li>
+  </ul></li>
+  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book chapters</a>
+  <ul>
+  <li><a href="#section-13" id="toc-section-13" class="nav-link" data-scroll-target="#section-13"><strong>2022</strong></a></li>
+  <li><a href="#section-14" id="toc-section-14" class="nav-link" data-scroll-target="#section-14"><strong>2017</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+
+
+<section id="original-articles" class="level3">
+<h3 class="anchored" data-anchor-id="original-articles">Original articles</h3>
+<hr>
+<p><a href="https://scholar.google.com/citations?user=I8I6g0IAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></p>
+<p><br></p>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section"><strong>2023</strong></h4>
+<hr>
+<p>Pairo-Castineira E, Rawlik K, Bretherick AD, …, <strong>Millar JE</strong>, …, Baillie JK.</p>
+<p>GWAS and meta-analyses identifies 49 genetic variants underlying critical COVID-19.</p>
+<p><strong>Nature</strong>, 617(7962):764-768.</p>
+<p><a href="https://doi.org/10.1038/s41586-023-06034-3" class="uri">https://doi.org/10.1038/s41586-023-06034-3</a></p>
+<p><br></p>
+<p>See Hoe LE, Li Bassi G, Wildi K, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Donor heart ischemic time can be extended to 8 hours using hypothermic machine perfusion in sheep.</p>
+<p><strong>J. Heart Lung Transplant.</strong>, S1053-2498(23)01819-3.</p>
+<p><a href="https://doi.org/10.1016/j.healun.2023.03.020" class="uri">https://doi.org/10.1016/j.healun.2023.03.020</a></p>
+<p><br></p>
+</section>
+<section id="section-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-1"><strong>2022</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, Boyle AJ, Drake TD, et. al.</p>
+<p>Extracorporeal carbon dioxide removal in acute hypoxaemic respiratory failure: a systematic review, Bayesian meta-analysis, and trial sequential analysis.</p>
+<p><strong>Eur. Respir. Rev.</strong>, 31:220030.</p>
+<p><a href="https://doi.org/10.1183/16000617.0030-2022" class="uri">https://doi.org/10.1183/16000617.0030-2022</a></p>
+<p><br></p>
+<p>Wildi K, Hyslop K, <strong>Millar JE</strong>, et. al.</p>
+<p>Validation of mRNA markers expressed in human ARDS subgroups in an ovine model of ARDS phenotypes.</p>
+<p><strong>Front. Med.</strong>, 9:961336.</p>
+<p><a href="https://doi.org/10.3389/fmed.2022.961336" class="uri">https://doi.org/10.3389/fmed.2022.961336</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, Neyton L, Seth S, et. al.</p>
+<p>Distinct clinical symptom patterns in patients hospitalised with COVID-19 in an analysis of 59,011 patients in the ISARIC-4C study.</p>
+<p><strong>Sci. Rep.</strong>, 12, 6843.</p>
+<p><a href="https://doi.org/10.1038/s41598-022-08032-3">https://doi.org/10.1038/s41598-022-08032-30</a></p>
+<p><br></p>
+<p>Kousathanas A, Pairo-Castineira E, Rawlik K, …, <strong>Millar JE</strong>, …, Baillie JK.</p>
+<p>Whole genome sequencing reveals host factors underlying critical COVID-19.</p>
+<p><strong>Nature</strong>, 607(7917):97-103.</p>
+<p><a href="https://doi.org/10.1038/s41586-022-04576-6" class="uri">https://doi.org/10.1038/s41586-022-04576-6</a></p>
+<p><br></p>
+<p>Reyes LF, Murthy S, Garcia-Gallo E, …, <strong>Millar JE</strong>, …, Olliaro PL.</p>
+<p>Clinical characteristics, risk factors and outcomes in patients with severe COVID-19 registered in the ISARIC WHO clinical characterisation protocol: a prospective, multinational, multicentre, observational study.</p>
+<p><strong>Eur. Respir. J. Open Res.</strong>, 8(1):00552-2021.</p>
+<p><a href="https://doi.org/10.1183/23120541.00552-2021" class="uri">https://doi.org/10.1183/23120541.00552-2021</a></p>
+<p><br></p>
+<p>Winslow RL, Zhou J, Windle EF, …, <strong>Millar JE</strong>, …Green CA.</p>
+<p>SARS-CoV-2 environmental contamination from hospitalised patients with COVID-19 receiving aerosol-generating procedures.</p>
+<p><strong>Thorax</strong>, 77(3):259-267.</p>
+<p><a href="https://doi.org/10.1136/thoraxjnl-2021-218035" class="uri">https://doi.org/10.1136/thoraxjnl-2021-218035</a></p>
+<p><br></p>
+</section>
+<section id="section-2" class="level4">
+<h4 class="anchored" data-anchor-id="section-2"><strong>2021</strong></h4>
+<hr>
+<p>Li Bassi G, Suen JY, Dalton HJ, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>An appraisal of respiratory system compliance in mechanically ventilated COVID-19 patients.</p>
+<p><strong>Crit. Care</strong>, 25: 199.</p>
+<p><a href="https://doi.org/10.1186/s13054-021-03518-4" class="uri">https://doi.org/10.1186/s13054-021-03518-4</a></p>
+<p><br></p>
+<p>McNamee JJ, Gillies MA, Barrett NA, …, <strong>Millar JE</strong>, …, McAuley DF.</p>
+<p>Effect of lower tidal volume ventilation facilitated by extracorporeal carbon dioxide removal vs standard care ventilation on 90-day mortality in patients with acute hypoxemic respiratory failure: the REST randomized trial.</p>
+<p><strong>JAMA</strong>, 326(11):1013-1023.</p>
+<p><a href="https://doi.org/10.1001/jama.2021.13374" class="uri">https://doi.org/10.1001/jama.2021.13374</a></p>
+<p><br></p>
+<p>Dolby HW, Potey P, Wilder-Smith AB, …, <strong>Millar JE</strong>, …, Russell CD.</p>
+<p>Histological evidence of pulmonary microthrombosis and vasculitis in life-threatening respiratory virus disease.</p>
+<p><strong>Open Forum Inf. Dis.</strong>, 8(2):ofaa640.</p>
+<p><a href="https://doi.org/10.1093/ofid/ofaa640" class="uri">https://doi.org/10.1093/ofid/ofaa640</a></p>
+<p><br></p>
+<p>Ki KK, <strong>Millar JE</strong>, Langguth D, et. al.</p>
+<p>Current understanding of leukocyte phenotypic and functional modulation during extracorporeal membrane oxygenation: a narrative review.</p>
+<p><strong>Front. Immunol.</strong>, 11:600684.</p>
+<p><a href="https://doi.org/10.3389/fimmu.2020.600684" class="uri">https://doi.org/10.3389/fimmu.2020.600684</a></p>
+<p><br></p>
+<p>Fulton R, <strong>Millar JE</strong>, Merza M, et. al.</p>
+<p>Prophylactic postoperative high flow nasal oxygen versus conventional therapy in obese patients undergoing bariatric surgery (OXYBAR): a pilot randomised controlled trial.</p>
+<p><strong>Obes. Surg.</strong>, 31(11):47994807.</p>
+<p><a href="https://doi.org/10.1007/s11695-021-05644-y%5D">https://doi.org/10.1007/s11695-021-05644-y</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, Wildi K,Bartnikowski N,et. al.</p>
+<p>Characterizing preclinical sub-phenotypic models of acute respiratory distress syndrome: an experimental ovine study.</p>
+<p><strong>Physiol. Rep.</strong>, 9(19):e15048.</p>
+<p><a href="https://doi.org/10.14814/phy2.15048" class="uri">https://doi.org/10.14814/phy2.15048</a></p>
+<p><br></p>
+<p>See Hoe LE, Wildi K, Obonyo NG, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>A clinically relevant sheep model of orthotopic heart transplantation 24 h after donor brainstem death.</p>
+<p><strong>Intensive Care Med. Exp.</strong>, 9(1):60.</p>
+<p><a href="https://doi.org/10.1186/s40635-021-00425-4" class="uri">https://doi.org/10.1186/s40635-021-00425-4</a></p>
+<p><br></p>
+<p>Pairo-Castineira E, Clohisey S, Klaric L, …, <strong>Millar JE</strong>, …, Baillie JK.</p>
+<p>Genetic mechanisms of critical illness in COVID-19.</p>
+<p><strong>Nature</strong>, 591(7848):92-98.</p>
+<p><a href="https://doi.org/10.1038/s41586-020-03065-y" class="uri">https://doi.org/10.1038/s41586-020-03065-y</a></p>
+<p><br></p>
+<p>COVID-19 Host Genetics Initiative.</p>
+<p>Mapping the human genetic architecture of COVID-19.</p>
+<p><strong>Nature</strong>, 600(7889):472-477.</p>
+<p><a href="https://doi.org/10.1038/s41586-021-03767-x" class="uri">https://doi.org/10.1038/s41586-021-03767-x</a></p>
+<p><br></p>
+</section>
+<section id="section-3" class="level4">
+<h4 class="anchored" data-anchor-id="section-3"><strong>2020</strong></h4>
+<hr>
+<p>Parkinson N, Rodgers N, Fourman MH, …, <strong>Millar JE</strong>, …, Clohisey S.</p>
+<p>Dynamic data-driven meta-analysis for prioritisation of host genes implicated in COVID-19.</p>
+<p><strong>Sci. Rep.</strong>, 10(1):22303.</p>
+<p><a href="https://doi.org/10.1038/s41598-020-79033-3" class="uri">https://doi.org/10.1038/s41598-020-79033-3</a></p>
+<p><br></p>
+<p>Soulsby CR, Hutchison, Gardner J, …, <strong>Millar JE</strong>.</p>
+<p>Socio-economic deprivation and the risk of death after ICU admission with COVID-19: The poor relation.</p>
+<p><strong>J. Intensive Care Soc.</strong>,</p>
+<p><a href="https://doi.org/10.1177/175114372097" class="uri">https://doi.org/10.1177/175114372097</a></p>
+<p><br></p>
+<p>Gorman E, <strong>Millar JE</strong>, McAuley D, et. al.</p>
+<p>Mesenchymal stromal cells for acute respiratory distress syndrome (ARDS), sepsis, and COVID-19 infection: optimizing the therapeutic potential.</p>
+<p><strong>Expert Rev.&nbsp;Respir. Med.</strong>, 15(3):301-324.</p>
+<p><a href="https://doi.org/110.1080/17476348.2021.1848555" class="uri">https://doi.org/110.1080/17476348.2021.1848555</a></p>
+<p><br></p>
+<p>Burton F, Lowe DJ, <strong>Millar JE</strong>, et. al.</p>
+<p>Propofol target-controlled infusion in emergency department sedation (Peo-TEDS): a multicentre, single-arm feasibility study.</p>
+<p><strong>Emerg. Med. J.</strong>, 38(3):205–210.</p>
+<p><a href="https://doi.org/10.1136/emermed-2020-209686" class="uri">https://doi.org/10.1136/emermed-2020-209686</a></p>
+<p><br></p>
+<p>Li Bassi G, Suen JY, Barnett AG, …, <strong>Millar J</strong>, …, Fraser JF.</p>
+<p>Design and rationale of the COVID-19 Critical Care Consortium international, multicentre, observational study.</p>
+<p><strong>BMJ Open</strong>, 10(12):e041417.</p>
+<p><a href="https://doi.org/10.1136/bmjopen-2020-041417" class="uri">https://doi.org/10.1136/bmjopen-2020-041417</a></p>
+<p><br></p>
+<p>Heinser S, Rozencwajg S, Suen JY, …, <strong>Millar JE</strong>.</p>
+<p>Heart failure supported by veno-arterial extracorporeal membrane oxygenation (ECMO): a systematic review of pre-clinical models.</p>
+<p><strong>Intensive Care Med. Exp.</strong>, 8:16.</p>
+<p><a href="https://doi.org/10.1186/s40635-020-00303-5" class="uri">https://doi.org/10.1186/s40635-020-00303-5</a></p>
+<p><br></p>
+<p>Malfertheiner MV, Koch C, Fisser C, <strong>Millar JE</strong>, et. al.</p>
+<p>Incidence of early intra-cranial bleeding and ischaemia in adult veno-arterial extracorporeal membrane oxygenation and extracorporeal cardiopulmonary resuscitation patients: a retrospective analysis of risk factors.</p>
+<p><strong>Perfusion</strong>, 35(1 suppl):8-17.</p>
+<p><a href="https://doi.org/10.1177/0267659120907438" class="uri">https://doi.org/10.1177/0267659120907438</a></p>
+<p><br></p>
+<p>Malfertheiner MV, Broman LM, Vercaemst L, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Ex vivo models for research in extracorporeal membrane oxygenation: a systematic review of the literature.</p>
+<p><strong>Perfusion</strong>, 35(1suppl):38-49.</p>
+<p><a href="https://doi.org/10.1177/0267659120907439" class="uri">https://doi.org/10.1177/0267659120907439</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, Bartnikowski N, Passmore MR, et. al.</p>
+<p>Combined mesenchymal stromal cell therapy and ECMO in ARDS: a randomised controlled trial in sheep. <strong>Am. J. Respir. Crit. Care Med.</strong>, 202(3):383-392.</p>
+<p><a href="https://doi.org/10.1164/rccm.201911-2143OC" class="uri">https://doi.org/10.1164/rccm.201911-2143OC</a></p>
+<p><br></p>
+<p>See Hoe LE, Wells MA, Bartnikowski N, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Heart Transplantation From Brain Dead Donors: A Systematic Review of Animal Models.</p>
+<p><strong>Transplantation</strong>, 104(11):2272-2289.</p>
+<p><a href="https://doi.org/10.1097/TP.0000000000003217" class="uri">https://doi.org/10.1097/TP.0000000000003217</a></p>
+<p><br></p>
+<p>Burton FM, Lowe DJ, <strong>Millar JE</strong>, et. al.</p>
+<p>Effect of target-controlled propofol infusion to reduce the incidence of adverse events for procedural sedation in the emergency department: a systematic review.</p>
+<p><strong>Eur. J. Emerg. Med.</strong>, 27(4):253259.</p>
+<p><a href="https://doi.org/10.1097/MEJ.0000000000000655" class="uri">https://doi.org/10.1097/MEJ.0000000000000655</a></p>
+<p><br></p>
+</section>
+<section id="section-4" class="level4">
+<h4 class="anchored" data-anchor-id="section-4"><strong>2019</strong></h4>
+<hr>
+<p>Ki KK, Passmore MR, Chan CHH, …, <strong>Millar JE</strong>, …, Suen JY.</p>
+<p>Low flow rate alters haemostatic parameters in an ex-vivo extracorporeal membrane oxygenation circuit.</p>
+<p><strong>Intensive Care Med. Exp.</strong>, 7:51.</p>
+<p><a href="https://doi.org/10.1186/s40635-019-0264-z%5D">https://doi.org/10.1186/s40635-019-0264-z</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, Bartnikowski N, von Bahr V, et. al.&nbsp;</p>
+<p>Extracorporeal membrane oxygenation (ECMO) and the acute respiratory distress syndrome (ARDS): a systematic review of pre-clinical models.</p>
+<p><strong>Intensive Care Med. Exp.</strong>, 7(1):18.</p>
+<p><a href="https://doi.org/10.1186/s40635-019-0232-7">https://doi.org/10.1186/s40635-019-0232-7</a></p>
+<p><br></p>
+<p>von Bahr, <strong>Millar JE</strong>, Malfertheiner MV, et. al.&nbsp;</p>
+<p>Mesenchymal stem cells may ameliorate inflammation in an ex-vivo model of extracorporeal membrane oxygenation.</p>
+<p><strong>Perfusion</strong>, 34(1suppl):15-21.</p>
+<p><a href="https://doi.org/10.1177/0267659119830857">https://doi.org/10.1177/0267659119830857</a></p>
+<p><br></p>
+<p>von Bahr V, Kalzen H, Frenckner B, …, <strong>Millar JE</strong>, …, Holzgraefe B.</p>
+<p>Long-term pulmonary function and quality of life in adults after extracorporeal membrane oxygenation for respiratory failure.</p>
+<p><strong>Perfusion</strong>, 34(1suppl):49-57.</p>
+<p><a href="https://doi.org/10.1177/0267659119830244">https://doi.org/10.1177/0267659119830244</a></p>
+<p><br></p>
+<p>Obonyo NG, Byrne L, Tung JP, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Pre-clinical study protocol: Blood transfusion in endotoxaemic shock.</p>
+<p><strong>Methods X</strong>, 6:1124–1132.</p>
+<p><a href="https://doi.org/10.1016/j.mex.2019.05.005">https://doi.org/10.1016/j.mex.2019.05.005</a></p>
+<p><br></p>
+<p>Burton FM, Lowe DJ, <strong>Millar J</strong>, et. al.&nbsp;</p>
+<p>A study protocol for a feasibility study: Propofol Target-Controlled Infusion in Emergency Department Sedation (PRoTEDS) – a multicentre feasibility study protocol.</p>
+<p><strong>Pilot Feasibility Stud.</strong>, 5:27.</p>
+<p><a href="https://doi.org/10.1186/s40814-019-0412-y">https://doi.org/10.1186/s40814-019-0412-y</a></p>
+<p><br></p>
+<p>Fanning JP, SeeHoe LE, Passmore MR, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Neuron-Specific Enolase and matrix metalloproteinase 9 signal perioperative silent brain infarction during or after transcatheter aortic valve implantation.</p>
+<p><strong>Am. J. Cardiol.</strong>, 123(3):434-439.</p>
+<p><a href="https://doi.org/10.1016/j.amjcard.2018.10.022">https://doi.org/10.1016/j.amjcard.2018.10.022</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, von Bahr V, Malfertheiner MV, et. al.&nbsp;</p>
+<p>Administration of mesenchymal stem cells during ECMO results in a rapid decline in oxygenator performance.</p>
+<p><strong>Thorax</strong>, 74(2):194-196.</p>
+<p><a href="http://dx.doi.org/10.1136/thoraxjnl-2017-211439">http://dx.doi.org/10.1136/thoraxjnl-2017-211439</a></p>
+<p><br></p>
+</section>
+<section id="section-5" class="level4">
+<h4 class="anchored" data-anchor-id="section-5"><strong>2018</strong></h4>
+<hr>
+<p>Fulton R, <strong>Millar JE</strong>, Merza M, et. al.&nbsp;</p>
+<p>High flow nasal oxygen after bariatric (OXYBAR), prophylactic post-operative high flow nasal oxygen versus conventional oxygen therapy in obese patients undergoing bariatric surgery: a study protocol for a randomised controlled pilot trial.</p>
+<p><strong>Trials</strong>, 19(1):402.</p>
+<p><a href="http://dx.doi.org/10.1007/s11695-021-05644-y">http://dx.doi.org/10.1007/s11695-021-05644-y</a></p>
+<p><br></p>
+<p>Fanning JP, See Hoe LE, Passmore MR, …, <strong>Millar JE</strong>, …, Fraser JF.</p>
+<p>Differential immunological profiles herald magnetic resonance imaging-defined perioperative cerebral infarction.</p>
+<p><strong>Ther. Adv. Neurol. Dis.</strong>, 11:1756286418759493.</p>
+<p><a href="http://dx.doi.org/110.1177/1756286418759493">http://dx.doi.org/110.1177/1756286418759493</a></p>
+<p><br></p>
+</section>
+<section id="section-6" class="level4">
+<h4 class="anchored" data-anchor-id="section-6"><strong>2017</strong></h4>
+<hr>
+<p>Malfertheiner MV, Pimenta LP, von Bahr V, <strong>Millar JE</strong>, et. al.&nbsp;</p>
+<p>Acquired von Willebrand syndrome in respiratory extracorporeal life support: a systematic review of the literature.</p>
+<p><strong>Crit. Care Resusc.</strong>, 19(Suppl 1):45-52.</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/29084501/">https://pubmed.ncbi.nlm.nih.gov/29084501/</a></p>
+<p><br></p>
+</section>
+<section id="section-7" class="level4">
+<h4 class="anchored" data-anchor-id="section-7"><strong>2016</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, Fanning JP, McDonald CI, et. al.&nbsp;</p>
+<p>The inflammatory response to extracorporeal membrane oxygenation (ECMO): a review of the pathophysiology.</p>
+<p><strong>Crit. Care</strong>, 20:387.</p>
+<p><a href="https://doi.org/10.1186/s13054-016-1570-4">https://doi.org/10.1186/s13054-016-1570-4</a></p>
+<p><br></p>
+<p>Devaney J, Smyth R, Lutton S, …, <strong>Millar JE</strong>.</p>
+<p>The soda dipstick: A convenient and cost-effective means of identifying the sugar content of soft drinks.</p>
+<p><strong>J. Diabetes</strong>, 8(6):877-878.</p>
+<p><a href="https://doi.org/10.1111/1753-0407.12431">https://doi.org/10.1111/1753-0407.12431</a></p>
+<p><br></p>
+<p>Lowe DJ, <strong>Millar JE</strong>, Dignon N, Ireland A.</p>
+<p>Top 10 lessons from the Glasgow major incidents.</p>
+<p><strong>Emerg. Med. J.</strong>, 33(8):596-7.</p>
+<p><a href="https://doi.org/10.1136/emermed-2015-205626">https://doi.org/10.1136/emermed-2015-205626</a></p>
+<p><br></p>
+</section>
+<section id="section-8" class="level4">
+<h4 class="anchored" data-anchor-id="section-8"><strong>2014</strong></h4>
+<hr>
+<p>Fitzgerald M, <strong>Millar J</strong>, Blackwood B, et. al.&nbsp;</p>
+<p>Extracorporeal carbon dioxide removal for patients with acute respiratory failure secondary to the Acute Respiratory Distress Syndrome: a systematic review.</p>
+<p><strong>Crit. Care</strong>, 18(3):222.</p>
+<p><a href="https://doi.org/10.1186/cc13875">https://doi.org/10.1186/cc13875</a></p>
+<p><br></p>
+<p><strong>Millar J</strong>, Lutton S, O’Connor P.</p>
+<p>The use of high flow nasal oxygen in the management of hypercarbic respiratory failure.</p>
+<p><strong>Ther. Adv. Respir. Dis.</strong>, 8(2):63-4.</p>
+<p><a href="https://doi.org/10.1177/1753465814521890">https://doi.org/10.1177/1753465814521890</a></p>
+<p><br></p>
+</section>
+</section>
+<section id="editorials" class="level3">
+<h3 class="anchored" data-anchor-id="editorials">Editorials</h3>
+<hr>
+<p><br></p>
+<section id="section-9" class="level4">
+<h4 class="anchored" data-anchor-id="section-9"><strong>2023</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, McAuley DF, Marini JJ.</p>
+<p>Driving pressure - what’s the harm?</p>
+<p><strong>Crit. Care Med.</strong>, 51(7): 967-970.</p>
+<p><a href="https://doi.org/10.1097/CCM.0000000000005874">https://doi.org/10.1097/CCM.0000000000005874</a></p>
+<p><br></p>
+</section>
+<section id="section-10" class="level4">
+<h4 class="anchored" data-anchor-id="section-10"><strong>2020</strong></h4>
+<hr>
+<p>Russell CD, <strong>Millar JE</strong>, Baillie JK.</p>
+<p>Clinical Evidence Does Not Support Corticosteroid Treatment for 2019-nCoV Lung Injury.</p>
+<p><strong>Lancet</strong>, 395(10223): 473–475.</p>
+<p><a href="https://doi.org/10.1016/S0140-6736(20)30317-2">https://doi.org/10.1016/S0140-6736(20)30317-2</a></p>
+<p><br></p>
+<p><strong>Millar JE</strong>, Busse R, Fraser JF, et. al.&nbsp;</p>
+<p>Apples and oranges: international comparisons of COVID-19 observational studies in ICUs.</p>
+<p><strong>Lancet Respir. Med.</strong>, 8(10):952–953.</p>
+<p><a href="https://doi.org/10.1016/S2213-2600(20)30368-4">https://doi.org/10.1016/S2213-2600(20)30368-4</a></p>
+<p><br></p>
+</section>
+<section id="section-11" class="level4">
+<h4 class="anchored" data-anchor-id="section-11"><strong>2015</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, Fraser JF, McAuley DF.</p>
+<p>Mesenchymal stromal cells and the acute respiratory distress syndrome (ARDS): challenges for clinical application.</p>
+<p><strong>Thorax</strong>, 70(7):611-2.</p>
+<p><a href="http://dx.doi.org/10.1136/thoraxjnl-2015-207121">http://dx.doi.org/10.1136/thoraxjnl-2015-207121</a></p>
+<p><br></p>
+</section>
+</section>
+<section id="letters" class="level3">
+<h3 class="anchored" data-anchor-id="letters">Letters</h3>
+<hr>
+<p><br></p>
+<section id="section-12" class="level4">
+<h4 class="anchored" data-anchor-id="section-12"><strong>2016</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, Lutton S, McLaughlin R.</p>
+<p>Need for a systematic audit of trauma care in Northern Ireland.</p>
+<p><strong>BMJ</strong>, 353:i2025.</p>
+<p><a href="http://dx.doi.org/10.1136/bmj.i2025">http://dx.doi.org/10.1136/bmj.i2025</a></p>
+<p><br></p>
+</section>
+</section>
+<section id="book-chapters" class="level3">
+<h3 class="anchored" data-anchor-id="book-chapters">Book chapters</h3>
+<hr>
+<p><br></p>
+<section id="section-13" class="level4">
+<h4 class="anchored" data-anchor-id="section-13"><strong>2022</strong></h4>
+<hr>
+<p>Hartley EL, <strong>Millar JE</strong>, Fraser JF.</p>
+<p>The unholy blood: biomaterial interaction in extracorporeal circulation. Extracorporeal Membrane Oxygenation: An interdisciplinary problem-based learning approach.</p>
+<p>Oxford University Press.</p>
+<p><a href="https://doi.org/10.1093/med/9780197521304.003.0012">https://doi.org/10.1093/med/9780197521304.003.0012</a></p>
+<p><br></p>
+</section>
+<section id="section-14" class="level4">
+<h4 class="anchored" data-anchor-id="section-14"><strong>2017</strong></h4>
+<hr>
+<p><strong>Millar JE</strong>, Gregory S, Stevens M, Fraser JF, Bartlett B.</p>
+<p>Past, Present, and Future. Mechanical Circulatory and Respiratory Support.</p>
+<p>Academic Press (Elsevier).</p>
+<p><a href="https://doi.org/10.1016/B978-0-12-810491-0.00025-4">https://doi.org/10.1016/B978-0-12-810491-0.00025-4</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© Copyright 2022 Jonathan Millar. Licensed CC-BY-NC 4.0.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

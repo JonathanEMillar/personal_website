@@ -19,9 +19,9 @@ comments: false
 
 ::: {.column-page}
 
-Jonathan Millar is a Senior Clinical Research Fellow in Intensive Care Medicine at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth II University Hospital, Glasgow. 
+Jonathan Millar is a Senior Clinical Research Fellow at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth II University Hospital, Glasgow. 
 
-His research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (Precision Cut Lung Slices, *Ex-vivo* Lung Perfusion, and complex large animal models).
+His research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (precision cut lung slices, *ex-vivo* lung perfusion, and complex large animal models).
 
 He completed his PhD with Prof John Fraser (University of Queensland) and Prof Danny McAuley (Queen’s University Belfast), studying the role of mesenchymal stem cells and ECMO in ARDS.
 
@@ -44,7 +44,7 @@ Millar JE, Neyton L, Seth S, et. al.
 [https://doi.org/10.1038/s41598-022-08032-3](https://doi.org/10.1038/s41598-022-08032-3)
 
 **Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: an experimental ovine study.** 
-Millar JE,Wildi K,Bartnikowski N,et. al. 
+Millar JE, Wildi K, Bartnikowski N, et. al. 
 2021. Physiol. Rep., 9(19):e15048. 
 [https://doi.org/10.14814/phy2.15048](https://doi.org/10.14814/phy2.15048)
 
@@ -56,7 +56,7 @@ Millar JE, Bartnikowski N, Passmore MR, et. al.
 
 #### Selected Software
 
-**[ARDSMAICR](https://github.com/baillielab/ARDSMAICr)** | R | ARDS Meta-analysis by information content | 2023 
+**[ARDSMAICR](https://github.com/baillielab/ARDSMAICr)** | R | ARDS meta-analysis by information content | 2023 
 
 **[Pubmed CLI](https://github.com/JonathanEMillar/pubmed_cli/)** | Python | CLI for PubMed | 2023 
 :::

@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jemillar.io/docs/home/index.html</loc>
-    <lastmod>2023-07-11T20:20:51.997Z</lastmod>
+    <lastmod>2023-07-12T14:23:34.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/papers/publist.html</loc>
+    <lastmod>2023-07-12T14:23:25.613Z</lastmod>
   </url>
   <url>
     <loc>https://jemillar.io/about.html</loc>
-    <lastmod>2023-07-11T20:20:53.572Z</lastmod>
+    <lastmod>2023-07-12T13:41:21.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/software/softlist.html</loc>
+    <lastmod>2023-07-12T14:23:19.746Z</lastmod>
   </url>
 </urlset>
