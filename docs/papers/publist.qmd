@@ -254,7 +254,7 @@ Socio-economic deprivation and the risk of death after ICU admission with COVID-
 
 <https://doi.org/10.1177/1751143720978855>
 
-[<i class="bi bi-filetype-pdf"></i>F](pdf/poorrelation.pdf)
+[<i class="bi bi-filetype-pdf"></i>](pdf/poorrelation.pdf)
 
 <br />
 
