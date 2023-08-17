@@ -18,7 +18,7 @@ comments: false
 
 ::: {.column-page}
 
-Jonathan Millar is a Senior Clinical Research Fellow at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth II University Hospital, Glasgow. 
+Jonathan Millar is a Senior Clinical Research Fellow at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth University Hospital, Glasgow. 
 
 His research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (precision cut lung slices, *ex-vivo* lung perfusion, and complex large animal models).
 
