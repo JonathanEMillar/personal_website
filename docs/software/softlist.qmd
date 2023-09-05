@@ -16,7 +16,7 @@ editor: visual
 
 <br />
 
-#### [<i class="bi bi-github"></i>](https://github.com/baillielab/ARDSMAICr) ARDSMAICR 
+#### [<i class="bi bi-github"></i>](https://github.com/baillielab/ARDSMAICr) ARDSMAICR
 
 <br />
 
@@ -36,7 +36,7 @@ The ARDSMAICR package contains the results of a meta-analysis by information con
 
 <br />
 
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/pubmed_cli) PubMed CLI 
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/pubmed_cli) PubMed CLI
 
 <br />
 
@@ -64,7 +64,7 @@ Features:
 
 <br />
 
-#### [<i class="bi bi-link"></i>](https://baillielab.net/maic/ards/docs/home/) ARDS Genomics website 
+#### [<i class="bi bi-link"></i>](https://baillielab.net/maic/ards/docs/home/) ARDS Genomics website
 
 <br />
 
@@ -72,11 +72,23 @@ Features:
 
 <br />
 
-#### [<i class="bi bi-link"></i>](https://panthertrial.netlify.app/docs/home/index.html) PANTHER intervention selection website 
+#### [<i class="bi bi-link"></i>](https://panthertrial.netlify.app/docs/home/index.html) PANTHER intervention selection website
 
 <br />
 
-![](panther.png){width="50%" height="50%" fig-align="center"}
+![](panther.png){fig-align="center" width="50%"}
+
+<br />
+
+#### [<i class="bi bi-link"></i>](https://globalardsdefinition.org) New Global ARDS Definition website
+
+<br />
+
+<div style="text-align: center;">
+
+![](ardsglobal.png){width="35%"}
+
+</div>
 
 <br />
 
@@ -86,7 +98,7 @@ Features:
 
 <br />
 
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Combining-ECMO-and-MSCs-for-ARDS) Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep 
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Combining-ECMO-and-MSCs-for-ARDS) Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep
 
 <br />
 
@@ -94,7 +106,7 @@ Physiological and biochemical data presented in <https://doi.org/10.1164/rccm.20
 
 <br />
 
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Pre-clinical-ARDS-sub-phenotypes) Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study 
+#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Pre-clinical-ARDS-sub-phenotypes) Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study
 
 <br />
 
