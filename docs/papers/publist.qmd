@@ -22,6 +22,18 @@ editor: visual
 
 ------------------------------------------------------------------------
 
+Malfertheiner MV, Garrett A, Passmore M, ..., **Millar JE**, ..., Fraser JF.
+
+The effects of nitric oxide on coagulation and inflammation in ex-vivo models of extracorporeal membrane oxygenation and cardiopulmonary bypass.
+
+**Artif. Organs**, 47(10):1581-1591.
+
+<https://doi.org/10.1111/aor.14608>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/Malfertheiner_NO_ArtifOrgans.pdf)
+
+<br />
+
 Pairo-Castineira E, Rawlik K, Bretherick AD, ..., **Millar JE**, ..., Baillie JK.
 
 GWAS and meta-analyses identifies 49 genetic variants underlying critical COVID-19.
@@ -567,6 +579,14 @@ The use of high flow nasal oxygen in the management of hypercarbic respiratory f
 #### **2023**
 
 ------------------------------------------------------------------------
+
+**Millar JE**, O'Kane CM.
+
+Mesenchymal stromal cells and ARDS: more questions than answers.
+
+**Am. J. Respir. Crit. Care Med.**, *Accepted*
+
+<br />
 
 **Millar JE**, McAuley DF, Marini JJ.
 
