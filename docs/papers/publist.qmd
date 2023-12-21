@@ -22,6 +22,18 @@ editor: visual
 
 ------------------------------------------------------------------------
 
+Swets MC, Kerr S, Scott-Brown J, ..., **Millar JE**, ..., Baillie JK.
+
+Evaluation of pragmatic oxygenation measurement as a proxy for Covid-19 severity.
+
+**Nat. Comms.**, 14:7374.
+
+<https://doi.org/10.1038/s41467-023-42205-6>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/s41467-023-42205-6.pdf)
+
+<br />
+
 Malfertheiner MV, Garrett A, Passmore M, ..., **Millar JE**, ..., Fraser JF.
 
 The effects of nitric oxide on coagulation and inflammation in ex-vivo models of extracorporeal membrane oxygenation and cardiopulmonary bypass.
