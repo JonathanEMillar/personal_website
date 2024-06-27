@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jemillar.io/docs/software/softlist.html</loc>
-    <lastmod>2024-01-31T13:47:56.358Z</lastmod>
+    <loc>https://jemillar.io/docs/analyses/phind_rnaseq.html</loc>
+    <lastmod>2024-06-27T10:24:31.339Z</lastmod>
   </url>
   <url>
-    <loc>https://jemillar.io/docs/papers/publist.html</loc>
-    <lastmod>2023-12-21T21:50:25.501Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jemillar.io/docs/home/index.html</loc>
-    <lastmod>2023-08-17T13:16:15.259Z</lastmod>
+    <loc>https://jemillar.io/docs/projects/projectlist.html</loc>
+    <lastmod>2024-01-31T13:50:31.516Z</lastmod>
   </url>
   <url>
     <loc>https://jemillar.io/docs/contact/contact.html</loc>
     <lastmod>2023-07-12T21:24:34.608Z</lastmod>
   </url>
   <url>
-    <loc>https://jemillar.io/docs/projects/projectlist.html</loc>
-    <lastmod>2024-01-31T13:50:31.516Z</lastmod>
+    <loc>https://jemillar.io/docs/home/index.html</loc>
+    <lastmod>2023-08-17T13:16:15.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/papers/publist.html</loc>
+    <lastmod>2023-12-21T21:50:25.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/software/softlist.html</loc>
+    <lastmod>2024-05-01T12:13:35.175Z</lastmod>
   </url>
 </urlset>

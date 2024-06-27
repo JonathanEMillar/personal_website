@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title></title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="">
+<meta name="twitter:creator" content="@jemillarni">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/home/index.html"> <i class="bi bi-house-door" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
+</i> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/papers/publist.html"> <i class="bi bi-book" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/software/softlist.html"> <i class="bi bi-terminal" role="img">
+</i> 
+<span class="menu-text">Software/Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-person-rolodex" role="img">
+</i> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JonathanEMillar"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jemillarni"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jonathan.millar@ed.ac.uk"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+   
+  <ul>
+  <li><a href="#phind-rna-seq" id="toc-phind-rna-seq" class="nav-link active" data-scroll-target="#phind-rna-seq">PHIND RNA-seq</a>
+  <ul>
+  <li><a href="#nf-corerna-seq" id="toc-nf-corerna-seq" class="nav-link" data-scroll-target="#nf-corerna-seq">nf-core/rna-seq</a></li>
+  <li><a href="#transcript-abundance-to-count-matrices" id="toc-transcript-abundance-to-count-matrices" class="nav-link" data-scroll-target="#transcript-abundance-to-count-matrices">Transcript abundance to count matrices</a></li>
+  <li><a href="#outlier-detection-and-filtering" id="toc-outlier-detection-and-filtering" class="nav-link" data-scroll-target="#outlier-detection-and-filtering">Outlier detection and filtering</a></li>
+  <li><a href="#differential-expression" id="toc-differential-expression" class="nav-link" data-scroll-target="#differential-expression">Differential expression</a></li>
+  <li><a href="#functional-enrichment" id="toc-functional-enrichment" class="nav-link" data-scroll-target="#functional-enrichment">Functional enrichment</a></li>
+  <li><a href="#protein-protein-interaction" id="toc-protein-protein-interaction" class="nav-link" data-scroll-target="#protein-protein-interaction">Protein-protein interaction</a></li>
+  <li><a href="#overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" id="toc-overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" class="nav-link" data-scroll-target="#overlap-with-existing-inflammatory-subphenotype-rna-seq-studies">Overlap with existing inflammatory subphenotype RNA-seq studies</a></li>
+  <li><a href="#clustering-signatures-based-on-gene-embedding" id="toc-clustering-signatures-based-on-gene-embedding" class="nav-link" data-scroll-target="#clustering-signatures-based-on-gene-embedding">Clustering signatures based on gene embedding</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+
+
+
+<section id="phind-rna-seq" class="level3">
+<h3 class="anchored" data-anchor-id="phind-rna-seq">PHIND RNA-seq</h3>
+<hr>
+<p><br></p>
+<section id="nf-corerna-seq" class="level4">
+<h4 class="anchored" data-anchor-id="nf-corerna-seq">nf-core/rna-seq</h4>
+<p><br></p>
+<p>I used the <a href="https://nf-co.re/rnaseq/3.14.0">nf-core/rna-seq</a> pipeline (v3.14.0) to analyse RNA-sequencing data.</p>
+<p><a href="./processed_data/params_2024-04-05_04-23-19.json">params yaml</a></p>
+<p>I used GRCh38 as the reference genome. The QC is reasonable.</p>
+<p>The pipeline parameters were relatively vanilla. In a larger analysis, there would be a little more optimisation to do.</p>
+<p><br></p>
+</section>
+<section id="transcript-abundance-to-count-matrices" class="level4">
+<h4 class="anchored" data-anchor-id="transcript-abundance-to-count-matrices">Transcript abundance to count matrices</h4>
+<p><br></p>
+<p>I used the Bioconductor package <code>tximport</code> in R version 4.3.1 to summarise transcript-level estimates (salmon files) into a count matrix. Counts are length scaled transcripts per million (nTPM).</p>
+<p><em>Script</em> - <a href="./processed_data/01_tximport_DESeq2.R">01_tximport_DESeq2.R</a></p>
+<p><br></p>
+</section>
+<section id="outlier-detection-and-filtering" class="level4">
+<h4 class="anchored" data-anchor-id="outlier-detection-and-filtering">Outlier detection and filtering</h4>
+<p><br></p>
+<p>I filtered all genes with ≤10 normalised TPM.</p>
+<p>At this step, I also filtered some genes which are related to U2 and are massively over expressed across the board. These were:</p>
+<ul>
+<li>ENSG00000275616</li>
+<li>ENSG00000274062</li>
+<li>ENSG00000275219</li>
+<li>ENSG00000274862</li>
+</ul>
+<p>I performed Generalised PCA on the count matrix, with the package <code>glmpca</code>. I identified samples which were more than 2.5 SD from the mean in either (or both) of the first 2 PCs and removed them.</p>
+<ul>
+<li>GCTU_PN0047</li>
+<li>GCTU_PN0052</li>
+</ul>
+<p><em>Script</em> - <a href="./processed_data/02_outliers.R">02_outliers.R</a></p>
+<p>I then re-imported the salmon files.</p>
+<p><em>Script</em> - <a href="./processed_data/03_tximport_DESeq2_filtered.R">03_tximport_DESeq2_filtered.R</a></p>
+<p><br></p>
+</section>
+<section id="differential-expression" class="level4">
+<h4 class="anchored" data-anchor-id="differential-expression">Differential expression</h4>
+<p><br></p>
+<p>I used <code>DESeq2</code> to perform differential expression analysis, based on subphenotype. I used the ‘il6_stnfr1_hco3_poc_alloc’ metadata column to assign samples to a subphenotype. Where this value was missing, I imputed it based on the ‘il6_stnfr1_hco3_elisa_alloc’ column. For sample GCTU_PN0090, I assumed the patient to be hypoinflammatory.</p>
+<p><em>Script</em> - <a href="./processed_data/04_DE.R">04_DE.R</a></p>
+<p>At an adjusted <em>P</em> value threshold &lt;0.1, for hyperinflammatory vs.&nbsp;hypoinflammatory, there were:</p>
+<ul>
+<li>130 (0.47%) up-regulated genes (LFC &gt;0)</li>
+<li>438 (1.6%) down-regulated genes (LFC &lt;0)</li>
+</ul>
+<p>Applying a log2 fold change threshold of &gt; 1.2 or &lt; -1.2, there were:</p>
+<ul>
+<li>37 up-regulated genes</li>
+<li>104 down-regulated genes</li>
+</ul>
+<p><br></p>
+<p><strong>Up-regulated genes</strong> (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2)</p>
+<details>
+<summary>Click to expand</summary>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Gene</th>
+<th>Ensembl ID</th>
+<th>Log2 FC</th>
+<th>adj <em>P</em> value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SPRY2</td>
+<td>ENSG00000136158</td>
+<td>2.00</td>
+<td>0.0034</td>
+</tr>
+<tr class="even">
+<td>MS4A4A</td>
+<td>ENSG00000110079</td>
+<td>1.77</td>
+<td>0.0037</td>
+</tr>
+<tr class="odd">
+<td>CTSL</td>
+<td>ENSG00000135047</td>
+<td>1.32</td>
+<td>0.0041</td>
+</tr>
+<tr class="even">
+<td>IGHV3-11</td>
+<td>ENSG00000211941</td>
+<td>2.42</td>
+<td>0.0056</td>
+</tr>
+<tr class="odd">
+<td>MCAM</td>
+<td>ENSG00000076706</td>
+<td>3.67</td>
+<td>0.0074</td>
+</tr>
+<tr class="even">
+<td>RASGEF1B</td>
+<td>ENSG00000138670</td>
+<td>1.21</td>
+<td>0.0077</td>
+</tr>
+<tr class="odd">
+<td>DNM1</td>
+<td>ENSG00000106976</td>
+<td>1.43</td>
+<td>0.0126</td>
+</tr>
+<tr class="even">
+<td>PCSK9</td>
+<td>ENSG00000169174</td>
+<td>2.99</td>
+<td>0.0189</td>
+</tr>
+<tr class="odd">
+<td>ADCY6</td>
+<td>ENSG00000174233</td>
+<td>1.57</td>
+<td>0.0257</td>
+</tr>
+<tr class="even">
+<td>SEMA6B</td>
+<td>ENSG00000167680</td>
+<td>1.39</td>
+<td>0.0327</td>
+</tr>
+<tr class="odd">
+<td>C1QB</td>
+<td>ENSG00000173369</td>
+<td>1.77</td>
+<td>0.0327</td>
+</tr>
+<tr class="even">
+<td>TNIP3</td>
+<td>ENSG00000050730</td>
+<td>1.70</td>
+<td>0.0334</td>
+</tr>
+<tr class="odd">
+<td>ROM1</td>
+<td>ENSG00000149489</td>
+<td>1.27</td>
+<td>0.0334</td>
+</tr>
+<tr class="even">
+<td>EMP1</td>
+<td>ENSG00000134531</td>
+<td>1.53</td>
+<td>0.0380</td>
+</tr>
+<tr class="odd">
+<td>B4GALT2</td>
+<td>ENSG00000117411</td>
+<td>1.35</td>
+<td>0.0385</td>
+</tr>
+<tr class="even">
+<td>SPRY1</td>
+<td>ENSG00000164056</td>
+<td>2.09</td>
+<td>0.0408</td>
+</tr>
+<tr class="odd">
+<td>IL31RA</td>
+<td>ENSG00000164509</td>
+<td>1.60</td>
+<td>0.0511</td>
+</tr>
+<tr class="even">
+<td>RBPMS</td>
+<td>ENSG00000157110</td>
+<td>2.90</td>
+<td>0.0517</td>
+</tr>
+<tr class="odd">
+<td>IGHV7-4-1</td>
+<td>ENSG00000282122</td>
+<td>3.42</td>
+<td>0.0529</td>
+</tr>
+<tr class="even">
+<td>C1QC</td>
+<td>ENSG00000159189</td>
+<td>1.96</td>
+<td>0.0536</td>
+</tr>
+<tr class="odd">
+<td>IGHV5-51</td>
+<td>ENSG00000211966</td>
+<td>1.64</td>
+<td>0.0546</td>
+</tr>
+<tr class="even">
+<td>C1QA</td>
+<td>ENSG00000173372</td>
+<td>1.71</td>
+<td>0.0581</td>
+</tr>
+<tr class="odd">
+<td>LOC100129844</td>
+<td>ENSG00000218565</td>
+<td>1.76</td>
+<td>0.0604</td>
+</tr>
+<tr class="even">
+<td>RAB38</td>
+<td>ENSG00000123892</td>
+<td>1.28</td>
+<td>0.0622</td>
+</tr>
+<tr class="odd">
+<td>CKAP2L</td>
+<td>ENSG00000169607</td>
+<td>1.25</td>
+<td>0.0633</td>
+</tr>
+<tr class="even">
+<td>CAVIN1</td>
+<td>ENSG00000177469</td>
+<td>1.25</td>
+<td>0.0676</td>
+</tr>
+<tr class="odd">
+<td>FAM20A</td>
+<td>ENSG00000108950</td>
+<td>1.28</td>
+<td>0.0695</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000279319</td>
+<td>1.22</td>
+<td>0.0699</td>
+</tr>
+<tr class="odd">
+<td>AS to AKAP8</td>
+<td>ENSG00000268189</td>
+<td>1.41</td>
+<td>0.0738</td>
+</tr>
+<tr class="even">
+<td>SLCO4A1</td>
+<td>ENSG00000101187</td>
+<td>1.57</td>
+<td>0.0776</td>
+</tr>
+<tr class="odd">
+<td>APOBEC3H</td>
+<td>ENSG00000100298</td>
+<td>1.38</td>
+<td>0.0782</td>
+</tr>
+<tr class="even">
+<td>SYNC</td>
+<td>ENSG00000162520</td>
+<td>1.63</td>
+<td>0.0788</td>
+</tr>
+<tr class="odd">
+<td>EGR3</td>
+<td>ENSG00000179388</td>
+<td>1.51</td>
+<td>0.0788</td>
+</tr>
+<tr class="even">
+<td>LDHAP4</td>
+<td>ENSG00000214110</td>
+<td>1.52</td>
+<td>0.0792</td>
+</tr>
+<tr class="odd">
+<td>COL4A4</td>
+<td>ENSG00000081052</td>
+<td>1.54</td>
+<td>0.0908</td>
+</tr>
+<tr class="even">
+<td>KIF20A</td>
+<td>ENSG00000112984</td>
+<td>1.60</td>
+<td>0.0943</td>
+</tr>
+<tr class="odd">
+<td>SLC12A5-AS1</td>
+<td>ENSG00000204044</td>
+<td>1.50</td>
+<td>0.0991</td>
+</tr>
+</tbody>
+</table>
+<p>AS - antisense</p>
+</details>
+<p><strong>Down-regulated genes</strong> (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2)</p>
+<details>
+<summary>Click to expand</summary>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Gene</th>
+<th>Ensembl ID</th>
+<th>Log2 FC</th>
+<th>adj <em>P</em> value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RNA gene</td>
+<td>ENSG00000288875</td>
+<td>-1.73</td>
+<td>0.00066</td>
+</tr>
+<tr class="even">
+<td>AS to LTA4H</td>
+<td>ENSG00000257878</td>
+<td>-1.76</td>
+<td>0.00093</td>
+</tr>
+<tr class="odd">
+<td>AS to TUBA1C</td>
+<td>ENSG00000258101</td>
+<td>-1.37</td>
+<td>0.00093</td>
+</tr>
+<tr class="even">
+<td>REM2</td>
+<td>ENSG00000139890</td>
+<td>-1.28</td>
+<td>0.00102</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000279884</td>
+<td>-1.37</td>
+<td>0.00103</td>
+</tr>
+<tr class="even">
+<td>EFCAB12</td>
+<td>ENSG00000172771</td>
+<td>-1.32</td>
+<td>0.00256</td>
+</tr>
+<tr class="odd">
+<td>TMEM252</td>
+<td>ENSG00000181778</td>
+<td>-1.57</td>
+<td>0.00270</td>
+</tr>
+<tr class="even">
+<td>AS to GDPD3</td>
+<td>ENSG00000275371</td>
+<td>-2.24</td>
+<td>0.00280</td>
+</tr>
+<tr class="odd">
+<td>SDF2 pseudogene</td>
+<td>ENSG00000260152</td>
+<td>-1.65</td>
+<td>0.00365</td>
+</tr>
+<tr class="even">
+<td>AOC3</td>
+<td>ENSG00000131471</td>
+<td>-1.20</td>
+<td>0.00428</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000289478</td>
+<td>-1.34</td>
+<td>0.00433</td>
+</tr>
+<tr class="even">
+<td>CCDC13-AS2</td>
+<td>ENSG00000225611</td>
+<td>-1.89</td>
+<td>0.00542</td>
+</tr>
+<tr class="odd">
+<td>GRAMD1C</td>
+<td>ENSG00000178075</td>
+<td>-1.76</td>
+<td>0.00664</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000272563</td>
+<td>-1.23</td>
+<td>0.00769</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000226904</td>
+<td>-2.48</td>
+<td>0.00783</td>
+</tr>
+<tr class="even">
+<td>NHS</td>
+<td>ENSG00000188158</td>
+<td>-1.28</td>
+<td>0.00790</td>
+</tr>
+<tr class="odd">
+<td>RERE-AS1</td>
+<td>ENSG00000232912</td>
+<td>-1.20</td>
+<td>0.00790</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000289434</td>
+<td>-1.93</td>
+<td>0.01018</td>
+</tr>
+<tr class="odd">
+<td>RCC1 pseudogene</td>
+<td>ENSG00000218713</td>
+<td>-1.48</td>
+<td>0.01076</td>
+</tr>
+<tr class="even">
+<td>LINC02289</td>
+<td>ENSG00000258819</td>
+<td>-1.69</td>
+<td>0.01076</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000275898</td>
+<td>-2.35</td>
+<td>0.01241</td>
+</tr>
+<tr class="even">
+<td>CPEB2-DT</td>
+<td>ENSG00000247624</td>
+<td>-1.41</td>
+<td>0.01288</td>
+</tr>
+<tr class="odd">
+<td>YPEL3-DT</td>
+<td>ENSG00000250616</td>
+<td>-1.52</td>
+<td>0.01289</td>
+</tr>
+<tr class="even">
+<td>ELAPOR1</td>
+<td>ENSG00000116299</td>
+<td>-1.42</td>
+<td>0.01354</td>
+</tr>
+<tr class="odd">
+<td>AS to GPR68</td>
+<td>ENSG00000258875</td>
+<td>-1.62</td>
+<td>0.01376</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000288700</td>
+<td>-1.35</td>
+<td>0.01414</td>
+</tr>
+<tr class="odd">
+<td>AS to DPEP2</td>
+<td>ENSG00000289618</td>
+<td>-1.22</td>
+<td>0.01419</td>
+</tr>
+<tr class="even">
+<td>MRPL18 pseudogene</td>
+<td>ENSG00000262636</td>
+<td>-1.79</td>
+<td>0.01427</td>
+</tr>
+<tr class="odd">
+<td>TIGD3</td>
+<td>ENSG00000173825</td>
+<td>-1.60</td>
+<td>0.01451</td>
+</tr>
+<tr class="even">
+<td>BICDL2</td>
+<td>ENSG00000162069</td>
+<td>-1.92</td>
+<td>0.01504</td>
+</tr>
+<tr class="odd">
+<td>SLC2A3P2</td>
+<td>ENSG00000185031</td>
+<td>-1.22</td>
+<td>0.01504</td>
+</tr>
+<tr class="even">
+<td>C1GALT1P1</td>
+<td>ENSG00000257818</td>
+<td>-2.09</td>
+<td>0.01572</td>
+</tr>
+<tr class="odd">
+<td>IFI27</td>
+<td>ENSG00000165949</td>
+<td>-2.69</td>
+<td>0.01574</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000237217</td>
+<td>-1.63</td>
+<td>0.01792</td>
+</tr>
+<tr class="odd">
+<td>LINC00222</td>
+<td>ENSG00000203801</td>
+<td>-2.01</td>
+<td>0.01918</td>
+</tr>
+<tr class="even">
+<td>PTPNS pseudogene</td>
+<td>ENSG00000234282</td>
+<td>-1.23</td>
+<td>0.01918</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000285966</td>
+<td>-1.83</td>
+<td>0.01918</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000289347</td>
+<td>-1.42</td>
+<td>0.02124</td>
+</tr>
+<tr class="odd">
+<td>AS to NEDD9</td>
+<td>ENSG00000290062</td>
+<td>-1.60</td>
+<td>0.02228</td>
+</tr>
+<tr class="even">
+<td>AS to LTA4H</td>
+<td>ENSG00000257715</td>
+<td>-2.62</td>
+<td>0.02348</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000289977</td>
+<td>-1.26</td>
+<td>0.02380</td>
+</tr>
+<tr class="even">
+<td>LOC101928389</td>
+<td>ENSG00000235834</td>
+<td>-1.45</td>
+<td>0.02559</td>
+</tr>
+<tr class="odd">
+<td>NT5DC4</td>
+<td>ENSG00000144130</td>
+<td>-1.60</td>
+<td>0.02666</td>
+</tr>
+<tr class="even">
+<td>AS to GMFG</td>
+<td>ENSG00000290031</td>
+<td>-1.27</td>
+<td>0.02671</td>
+</tr>
+<tr class="odd">
+<td>CORIN</td>
+<td>ENSG00000145244</td>
+<td>-2.35</td>
+<td>0.02886</td>
+</tr>
+<tr class="even">
+<td>ITPK1-AS1</td>
+<td>ENSG00000258730</td>
+<td>-2.51</td>
+<td>0.02958</td>
+</tr>
+<tr class="odd">
+<td>RAPH1</td>
+<td>ENSG00000173166</td>
+<td>-1.36</td>
+<td>0.03265</td>
+</tr>
+<tr class="even">
+<td>AS to MAPL1</td>
+<td>ENSG00000289564</td>
+<td>-1.38</td>
+<td>0.03324</td>
+</tr>
+<tr class="odd">
+<td>LINC02555</td>
+<td>ENSG00000260943</td>
+<td>-1.68</td>
+<td>0.03342</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000289251</td>
+<td>-1.24</td>
+<td>0.03342</td>
+</tr>
+<tr class="odd">
+<td>CTTNBP2</td>
+<td>ENSG00000077063</td>
+<td>-3.48</td>
+<td>0.03790</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000255801</td>
+<td>-1.53</td>
+<td>0.03845</td>
+</tr>
+<tr class="odd">
+<td>SPDYA</td>
+<td>ENSG00000163806</td>
+<td>-1.61</td>
+<td>0.03971</td>
+</tr>
+<tr class="even">
+<td>PFDN1P2</td>
+<td>ENSG00000248188</td>
+<td>-1.42</td>
+<td>0.04071</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000286796</td>
+<td>-1.31</td>
+<td>0.04071</td>
+</tr>
+<tr class="even">
+<td>AS to GDPD3</td>
+<td>ENSG00000261367</td>
+<td>-2.22</td>
+<td>0.04239</td>
+</tr>
+<tr class="odd">
+<td>FAM192BP</td>
+<td>ENSG00000231841</td>
+<td>-1.93</td>
+<td>0.04294</td>
+</tr>
+<tr class="even">
+<td>TAF11L2</td>
+<td>ENSG00000284373</td>
+<td>-2.31</td>
+<td>0.04322</td>
+</tr>
+<tr class="odd">
+<td>FN1</td>
+<td>ENSG00000115414</td>
+<td>-1.90</td>
+<td>0.04402</td>
+</tr>
+<tr class="even">
+<td>CCT8P1</td>
+<td>ENSG00000226015</td>
+<td>-1.57</td>
+<td>0.04587</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000273272</td>
+<td>-1.20</td>
+<td>0.04751</td>
+</tr>
+<tr class="even">
+<td>THEM5</td>
+<td>ENSG00000196407</td>
+<td>-2.28</td>
+<td>0.04898</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000289573</td>
+<td>-1.22</td>
+<td>0.04899</td>
+</tr>
+<tr class="even">
+<td>XKR3</td>
+<td>ENSG00000172967</td>
+<td>-1.67</td>
+<td>0.04963</td>
+</tr>
+<tr class="odd">
+<td>GLI1</td>
+<td>ENSG00000111087</td>
+<td>-2.20</td>
+<td>0.04990</td>
+</tr>
+<tr class="even">
+<td>RPSAP22</td>
+<td>ENSG00000229648</td>
+<td>-1.39</td>
+<td>0.05894</td>
+</tr>
+<tr class="odd">
+<td>AS to ELK3</td>
+<td>ENSG00000287454</td>
+<td>-2.13</td>
+<td>0.05998</td>
+</tr>
+<tr class="even">
+<td>TAS2R62P</td>
+<td>ENSG00000234066</td>
+<td>-1.64</td>
+<td>0.06035</td>
+</tr>
+<tr class="odd">
+<td>NRCAM</td>
+<td>ENSG00000091129</td>
+<td>-3.06</td>
+<td>0.06055</td>
+</tr>
+<tr class="even">
+<td>AS to AQP9</td>
+<td>ENSG00000289948</td>
+<td>-1.54</td>
+<td>0.06055</td>
+</tr>
+<tr class="odd">
+<td>LLCFC1</td>
+<td>ENSG00000165131</td>
+<td>-2.11</td>
+<td>0.06210</td>
+</tr>
+<tr class="even">
+<td>C7orf25</td>
+<td>ENSG00000136197</td>
+<td>-1.24</td>
+<td>0.06338</td>
+</tr>
+<tr class="odd">
+<td>LOC100288146</td>
+<td>ENSG00000251473</td>
+<td>-2.14</td>
+<td>0.06338</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000282742</td>
+<td>-1.56</td>
+<td>0.06401</td>
+</tr>
+<tr class="odd">
+<td>LINC01765</td>
+<td>ENSG00000233730</td>
+<td>-1.80</td>
+<td>0.06631</td>
+</tr>
+<tr class="even">
+<td>CHCHD7 pseudogene</td>
+<td>ENSG00000260103</td>
+<td>-1.92</td>
+<td>0.06718</td>
+</tr>
+<tr class="odd">
+<td>CTDNEP1P1</td>
+<td>ENSG00000241889</td>
+<td>-1.98</td>
+<td>0.06903</td>
+</tr>
+<tr class="even">
+<td>VSIG1</td>
+<td>ENSG00000101842</td>
+<td>-1.65</td>
+<td>0.06995</td>
+</tr>
+<tr class="odd">
+<td>ENPP3</td>
+<td>ENSG00000154269</td>
+<td>-2.51</td>
+<td>0.06995</td>
+</tr>
+<tr class="even">
+<td>MPHOSPH10P1</td>
+<td>ENSG00000260078</td>
+<td>-1.96</td>
+<td>0.07281</td>
+</tr>
+<tr class="odd">
+<td>NDUFB8P2</td>
+<td>ENSG00000270264</td>
+<td>-1.57</td>
+<td>0.07281</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000251093</td>
+<td>-1.22</td>
+<td>0.07541</td>
+</tr>
+<tr class="odd">
+<td>AS to ABCC6</td>
+<td>ENSG00000262332</td>
+<td>-2.43</td>
+<td>0.07541</td>
+</tr>
+<tr class="even">
+<td>AS to MYO1D</td>
+<td>ENSG00000266718</td>
+<td>-1.77</td>
+<td>0.07875</td>
+</tr>
+<tr class="odd">
+<td>Uncategorised</td>
+<td>ENSG00000259959</td>
+<td>-1.33</td>
+<td>0.07896</td>
+</tr>
+<tr class="even">
+<td>RUFY4</td>
+<td>ENSG00000188282</td>
+<td>-1.61</td>
+<td>0.08107</td>
+</tr>
+<tr class="odd">
+<td>LINC00622</td>
+<td>ENSG00000260941</td>
+<td>-1.83</td>
+<td>0.08118</td>
+</tr>
+<tr class="even">
+<td>SPTBN5</td>
+<td>ENSG00000137877</td>
+<td>-1.52</td>
+<td>0.08137</td>
+</tr>
+<tr class="odd">
+<td>SRD5A3P1</td>
+<td>ENSG00000270929</td>
+<td>-1.85</td>
+<td>0.08150</td>
+</tr>
+<tr class="even">
+<td>LOC105370152</td>
+<td>ENSG00000289381</td>
+<td>-1.28</td>
+<td>0.08397</td>
+</tr>
+<tr class="odd">
+<td>LYPLAL1-DT</td>
+<td>ENSG00000228063</td>
+<td>-1.51</td>
+<td>0.08425</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000260337</td>
+<td>-2.36</td>
+<td>0.08480</td>
+</tr>
+<tr class="odd">
+<td>IGSF9B</td>
+<td>ENSG00000080854</td>
+<td>-1.32</td>
+<td>0.08508</td>
+</tr>
+<tr class="even">
+<td>AS to KCNJ6</td>
+<td>ENSG00000289538</td>
+<td>-1.41</td>
+<td>0.08931</td>
+</tr>
+<tr class="odd">
+<td>OTX1</td>
+<td>ENSG00000115507</td>
+<td>-1.37</td>
+<td>0.09022</td>
+</tr>
+<tr class="even">
+<td>TAS2R60</td>
+<td>ENSG00000185899</td>
+<td>-1.45</td>
+<td>0.09025</td>
+</tr>
+<tr class="odd">
+<td>Overlapping ZNF435</td>
+<td>ENSG00000261839</td>
+<td>-1.79</td>
+<td>0.09179</td>
+</tr>
+<tr class="even">
+<td>AS to SLC5A9</td>
+<td>ENSG00000272491</td>
+<td>-1.52</td>
+<td>0.09179</td>
+</tr>
+<tr class="odd">
+<td>LINC00908</td>
+<td>ENSG00000266256</td>
+<td>-1.36</td>
+<td>0.09434</td>
+</tr>
+<tr class="even">
+<td>Uncategorised</td>
+<td>ENSG00000288737</td>
+<td>-1.32</td>
+<td>0.09468</td>
+</tr>
+<tr class="odd">
+<td>AS to ZFP36L2</td>
+<td>ENSG00000287387</td>
+<td>-1.29</td>
+<td>0.09507</td>
+</tr>
+<tr class="even">
+<td>LINC02723</td>
+<td>ENSG00000231680</td>
+<td>-1.36</td>
+<td>0.09548</td>
+</tr>
+<tr class="odd">
+<td>AS to ST6GALNAC2</td>
+<td>ENSG00000267078</td>
+<td>-1.54</td>
+<td>0.09641</td>
+</tr>
+<tr class="even">
+<td>RC3H1-DT</td>
+<td>ENSG00000224977</td>
+<td>-1.91</td>
+<td>0.09676</td>
+</tr>
+</tbody>
+</table>
+<p>AS - antisense</p>
+</details>
+<p><br></p>
+<p><img src="./processed_data/volcano_1.png" class="img-fluid"></p>
+<p><br></p>
+</section>
+<section id="functional-enrichment" class="level4">
+<h4 class="anchored" data-anchor-id="functional-enrichment">Functional enrichment</h4>
+<p><br></p>
+<p>I performed functional enrichment of all significantly differentially expressed genes (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2), against the background of all genes with &gt; 10 nTPM.</p>
+<p>First, over representation analysis using GO, KEGG, Reactome, WikiPathways, and the Human Protein Atlas. I used the <code>grprofiler2</code> package, with ordered queires and a FDR &lt;0.01.</p>
+<p><em>Script</em> - <a href="./processed_data/05_functional_enrichment.R">05_functional_enrichment.R</a></p>
+<p><br></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Up-regulated genes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Down-regulated genes</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><br></p>
+<p><strong>GO Biological Process</strong></p>
+<details>
+<summary>Click to expand</summary>
+<p><img src="./processed_data/up_go.png" class="img-fluid"></p>
+</details>
+<p><br></p>
+<p><strong>KEGG</strong></p>
+<details>
+<summary>Click to expand</summary>
+<p><img src="./processed_data/up_kegg.png" class="img-fluid"></p>
+</details>
+<p><br></p>
+<p><strong>Reactome</strong></p>
+<details>
+<summary>Click to expand</summary>
+<p><img src="./processed_data/up_reac.png" class="img-fluid"></p>
+</details>
+<p><br></p>
+<p><strong>WikiPathways</strong></p>
+<details>
+<summary>Click to expand</summary>
+<p><img src="./processed_data/up_wp.png" class="img-fluid"></p>
+</details>
+<p><br></p>
+<p><strong>Human Protein Atlas</strong></p>
+<p>Nil</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><br></p>
+<p>No significantly enriched pathways</p>
+</div>
+</div>
+</div>
+</section>
+<section id="protein-protein-interaction" class="level4">
+<h4 class="anchored" data-anchor-id="protein-protein-interaction">Protein-protein interaction</h4>
+<p><br></p>
+<p>I created a PPI network using STRINGdb and significantly differentially regulated genes (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2). This mapped 59 proteins. There were 22 edges, giving an enrichment <em>P</em> value of 3.35e-05.</p>
+<p><em>Script</em> - <a href="./processed_data/06_protein_protein_interaction.R">06_protein_protein_interaction.R</a></p>
+<p><img src="./processed_data/string_vector_graphic_all.png" class="img-fluid"></p>
+<p>I then MCL clustered this network, identifying 8 clusters.</p>
+<p><img src="./processed_data/string_vector_graphic_clusters.png" class="img-fluid"></p>
+<p>The following enrich against Reactome:</p>
+<ul>
+<li>Cluster 2 - Classical antibody-mediated complement activation</li>
+<li>Cluster 3 - RHOB/RHOC/RAC2 GTPase cycle</li>
+<li>Cluster 7 - EGFR downregulation</li>
+<li>Cluster 8 - Interaction between L1 and Ankyrins</li>
+</ul>
+<p><br></p>
+</section>
+<section id="overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" class="level4">
+<h4 class="anchored" data-anchor-id="overlap-with-existing-inflammatory-subphenotype-rna-seq-studies">Overlap with existing inflammatory subphenotype RNA-seq studies</h4>
+<p><br></p>
+<p>Next, I considered the overlap between DEGs in PHIND with DEGs in two other RNA-seq studies:</p>
+<ul>
+<li>Sarma, A. <em>et al.</em> Hyperinflammatory ARDS is characterized by interferon-stimulated gene expression, t-cell activation, and an altered metatranscriptome in tracheal aspirates. bioRxiv (2022).</li>
+<li>Sinha, P <em>et al.</em> Molecular phenotypes of acute respiratory distress syndrome in the ROSE trial have differential outcomes and gene expression patterns that differ at baseline and longitudinally over time. Am. J. Respir. Crit. Care Med. 209(7):816-828 (2024).</li>
+</ul>
+<p><em>Script</em> - <a href="./processed_data/07_gene_overlap.R">07_gene_overlap.R</a></p>
+<p>I retrieved hyper vs.&nbsp;hypoinflammatory DEGs from these studies based on the same criteria - adj <em>P</em> value &lt;0.1 and abs(Log2FC) &gt; 1.2.</p>
+<p><br></p>
+<p><strong>Sarma</strong></p>
+<p><img src="./processed_data/sarma_overlap.png" class="img-fluid"></p>
+<p><strong>Sinha day 0</strong></p>
+<p><img src="./processed_data/sinha_d0_overlap.png" class="img-fluid"></p>
+<p><strong>Sinha day 2</strong></p>
+<p><img src="./processed_data/sinha_d2_overlap.png" class="img-fluid"></p>
+<p><br></p>
+</section>
+<section id="clustering-signatures-based-on-gene-embedding" class="level4">
+<h4 class="anchored" data-anchor-id="clustering-signatures-based-on-gene-embedding">Clustering signatures based on gene embedding</h4>
+<p><br></p>
+<p>Given the limited overlap between studies based on gene identity. I embedded the DEGs (gene signatures) from each study using pre-derived functional embeddings:</p>
+<ul>
+<li>Chehen, H. <em>et al.</em> Drug target prediction through deep learning functional representation of gene signatures. Nat. Commun. 15(1):1853 (2024). https://github.com/chenhcs/FRoGS</li>
+</ul>
+<p><em>Embeddings</em> - <a href="./processed_data/embeddings.csv">embeddings.csv</a></p>
+<p>To create a background, I randomly partitioned the PHIND data using the same proportions of hyper and hypoinflammatory patients, and iterated DE analysis 1000 times. This returned 208 random gene signatures with ≥ 10 genes.</p>
+<p><em>Script</em> - <a href="./processed_data/compute_embeddings.py">compute_embeddings.py</a></p>
+<p><br></p>
+<p><img src="./processed_data/umap_visualization.png" class="img-fluid"></p>
+<p><br></p>
+<p>I then formally assessed whether the study derived signatures were more or less similar when compared to the background. I computed the pairwise Euclidean distance between all pairs of study signatures and from each study signature to each random signature.</p>
+<p>I then performed paired t tests and Wilcoxon signed-rank tests - comparing the means of the within-study distances to the study-to-random distances.</p>
+<ul>
+<li>Paired t-test results: statistic = -4.52758, p-value = 0.00624</li>
+<li>Wilcoxon signed-rank test results: statistic = 0.0, p-value = 0.03125</li>
+</ul>
+<p>The mean within-study distance was 0.28876 vs.&nbsp;0.45015 from study to random signatures.</p>
+<p><em>Script</em> - <a href="./processed_data/embeddings_similarity.py">embeddings_similarity.py</a></p>
+<p><br></p>
+<p><img src="./processed_data/distance_distribution.png" class="img-fluid"></p>
+<p><br></p>
+<p>I also calculated an estimate of the effect size using Cohen’s d which was -2.89138, suggesting that the within study distances are smaller than study to random background and that the magnitude of this difference is substantial.</p>
+<p>To defend against assumptions in the t test and Wilcoxon ranked-sign test, I also conducted a permutation test:</p>
+<ol type="1">
+<li>Observed Difference: First, I calculated the actual difference between the mean of within-study distances and the mean of study-to-random distances. This is the observed difference.</li>
+<li>Combining Data: I then combined all the distances (both within-study and study-to-random) into a single pool of data.</li>
+<li>Permutation Process: I randomly shuffled this combined pool of data. After shuffling, we split the data back into two groups of the same sizes as our original groups. I calculated the difference in means between these new, randomly assigned groups. I repeated this 10,000 times.</li>
+<li>Comparison: For each permutation, I compared the randomly generated difference to the observed difference. I counted how many times the permuted difference is as extreme as or more extreme than our observed difference.</li>
+<li>P-value Calculation: The p-value is calculated as the proportion of permutations where the permuted difference was as extreme as or more extreme than the observed difference.</li>
+</ol>
+<p>The <em>P</em> value was &lt; 0.0001</p>
+<p><em>Script</em> - <a href="./processed_data/embeddings_cohensd_and_perm.py">embeddings_cohensd_and_perm.py</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2022 Jonathan Millar. Licensed CC-BY-NC 4.0.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JonathanEMillar/personal_website">
+      <i class="bi bi-code" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

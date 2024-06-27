@@ -40,8 +40,7 @@ The ARDSMAICR package contains the results of a meta-analysis by information con
 
 <br />
 
-![](pubmedcli.png){width="25%" height="25%" fig-align="left"}
-<br />
+![](pubmedcli.png){width="25%" height="25%" fig-align="left"} <br />
 
 A Python script that allows you to search PubMed for publications based on a specific query term and a specified number of days back. The script utilizes the Biopython library to interact with the PubMed database.
 
