@@ -54,3 +54,5 @@ format:
       dark: [darkly]
     css: styles.css
 
+filters:
+  - shinylive

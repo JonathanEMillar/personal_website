@@ -1,4 +1,11 @@
 ---
 title: ""
+page-layout: full
+toc: true
+toc-title: Projects
+toc-depth: 4
+toc-expand: false
+toc-location: left
+comments: false
 editor: visual
 ---
