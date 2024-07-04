@@ -1,11 +1,31 @@
 ---
 title: ""
-page-layout: full
-toc: true
-toc-title: Projects
-toc-depth: 4
-toc-expand: false
-toc-location: left
+author: ""
 comments: false
-editor: visual
+citation: false
+listing: 
+  contents:
+    - "*.qmd"
+  type: grid
+  fields: [image, title, description]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
 ---
+
+<br/>
+
+### Current projects
+
+<br/>
+
+Here you can view various apps and gizmos I’ve created. Have a play through some of them let me know what you think!
+
+<br/>
+

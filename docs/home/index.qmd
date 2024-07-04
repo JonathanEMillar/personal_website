@@ -2,7 +2,9 @@
 title: "Johnny Millar"
 image: ../../images/cartoon_small.png
 about:
-  template: trestles
+  id: hero-heading
+  image-width: 25em
+  template: jolla
   links:
     - text: Twitter
       icon: twitter
@@ -16,15 +18,22 @@ about:
 comments: false
 ---
 
-::: {.column-page}
+<br/>
 
-Jonathan Millar is a Senior Clinical Research Fellow at the University of Edinburgh and an Honorary Consultant in Intensive Care Medicine at the Queen Elizabeth University Hospital, Glasgow. 
+:::{#hero-heading}
 
-His research interests include the functional genomics of ARDS, computational biology applied to the lung, and lung model systems (precision cut lung slices, *ex-vivo* lung perfusion, and complex large animal models).
+**Senior Clinical Research Fellow & Honorary Consultant in Intensive Care Medicine** 
 
-He completed his PhD with Prof John Fraser and Prof Danny McAuley, studying the role of mesenchymal stem cells and ECMO in ARDS.
+The University of Edinburgh and the Queen Elizabeth University Hospital, Glasgow
 
-Since moving to Edinburgh in 2020, he has worked with Prof Kenneth Baillie at the Roslin Institute and the Baillie Gifford Pandemic Science Hub. 
-
-He has contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and is working to develop *in-silico* and *in-vitro* platforms to better understand the functional genomics underpinning acute severe respiratory failure.
 :::
+
+<br/>
+
+My research interests include computational biology applied to the lung, the integration of deep-learning and clinical trials, and the functional genomics of ARDS.
+
+I completed my PhD with Prof John Fraser and Prof Danny McAuley, studying the role of mesenchymal stem cells and ECMO in ARDS.
+
+Since moving to Edinburgh in 2020, I have worked with Prof Kenneth Baillie at the Baillie-Gifford Pandemic Science Hub, Institute of Regeneration & Repair. 
+
+I have contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and am working to develop *in-silico* and *in-vitro* platforms to better understand the functional genomics of ARDS and to discover novel treatments. 

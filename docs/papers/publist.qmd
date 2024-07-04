@@ -18,6 +18,20 @@ editor: visual
 
 [ORCID](https://orcid.org/0000-0002-4853-9377)
 
+#### **2024**
+
+------------------------------------------------------------------------
+
+**Millar JE**, Clohisey-Hendry S, McMannus M, et. al. 
+
+The genomic landscape of Acute Respiratory Distress Syndrome: a meta-analysis by information content of genome-wide studies of the host response.
+
+**medRxiv**, 13.234301089.
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/2024.02.13.24301089v1.full.pdf)
+
+<br/>
+
 #### **2023**
 
 ------------------------------------------------------------------------
@@ -588,6 +602,22 @@ The use of high flow nasal oxygen in the management of hypercarbic respiratory f
 
 <br />
 
+#### **2024**
+
+------------------------------------------------------------------------
+
+**Millar JE**, Docherty AB.
+
+It ain’t what you do (it’s the way that you do it): modulating the host response in sepsis. 
+
+**Anaesthesia**, Online ahead of print.
+
+<https://doi.org/10.1111/anae.16263>
+
+[<i class="bi bi-filetype-pdf"></i>](pdf/Anaesthesia.pdf)
+
+<br/>
+
 #### **2023**
 
 ------------------------------------------------------------------------
@@ -596,7 +626,7 @@ The use of high flow nasal oxygen in the management of hypercarbic respiratory f
 
 Mesenchymal stromal cells and ARDS: more questions than answers.
 
-**Am. J. Respir. Crit. Care Med.**, *Accepted*
+**Am. J. Respir. Crit. Care Med.**, 208(12):1257-1259.
 
 <https://doi.org/10.1164/rccm.202310-1847ED>
 
