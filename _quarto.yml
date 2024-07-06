@@ -10,12 +10,12 @@ website:
   favicon: images/favicon.png
 
   navbar:
+    logo: images/favicon.png
     background: primary
     align: left
 
     left:
-      - icon: house-door
-        text: "Home"
+      - text: ""
         href: docs/home/index.qmd
       - icon: stickies
         text: "Projects"

@@ -1,9 +1,14 @@
 ---
 title: "Johnny Millar"
-image: ../../images/cartoon_small.png
+format:
+  html:
+    page-layout: full
+    css: styles_index.css
 about:
   id: hero-heading
-  image-width: 25em
+  image: ../../images/DSC_6910_full.jpg
+  image-shape: rectangle
+  image-width: 40em
   template: jolla
   links:
     - text: Twitter
@@ -18,22 +23,50 @@ about:
 comments: false
 ---
 
-<br/>
-
 :::{#hero-heading}
-
 **Senior Clinical Research Fellow & Honorary Consultant in Intensive Care Medicine** 
 
 The University of Edinburgh and the Queen Elizabeth University Hospital, Glasgow
 
-:::
-
-<br/>
-
+:::{.about-wrapper}
+<div class="about-dropdown">
+  <button id="about-toggle" class="about-toggle">
+    <i class="fas fa-info-circle"></i> About me
+  </button>
+  <div id="about-content" class="about-content" style="display: none;">
 My research interests include computational biology applied to the lung, the integration of deep-learning and clinical trials, and the functional genomics of ARDS.
 
 I completed my PhD with Prof John Fraser and Prof Danny McAuley, studying the role of mesenchymal stem cells and ECMO in ARDS.
 
-Since moving to Edinburgh in 2020, I have worked with Prof Kenneth Baillie at the Baillie-Gifford Pandemic Science Hub, Institute of Regeneration & Repair. 
+Since moving to Edinburgh in 2020, I have worked with Prof Kenneth Baillie at the Baillie-Gifford Pandemic Science Hub, Institute of Regeneration & Repair.
 
-I have contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and am working to develop *in-silico* and *in-vitro* platforms to better understand the functional genomics of ARDS and to discover novel treatments. 
+I have contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and am working to develop *in-silico* and *in-vitro* platforms to better understand the functional genomics of ARDS and to discover novel treatments.
+  </div>
+</div>
+:::
+:::
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.getElementById('about-toggle');
+  const content = document.getElementById('about-content');
+
+  if (!toggleButton || !content) {
+    console.error('About toggle button or content not found');
+    return;
+  }
+
+  toggleButton.addEventListener('click', function(event) {
+    event.stopPropagation();
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    console.log('Toggle button clicked, content display:', content.style.display);
+  });
+
+  document.addEventListener('click', function(event) {
+    if (content.style.display === 'block' && !content.contains(event.target) && event.target !== toggleButton) {
+      content.style.display = 'none';
+      console.log('Clicked outside, hiding content');
+    }
+  });
+});
+</script>
