@@ -1,113 +1,41 @@
 ---
 title: ""
-page-layout: full
-toc: true
-toc-title: Software/Data
-toc-depth: 4
-toc-expand: false
-toc-location: left
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <script>
+          window.addEventListener('pageshow', function(event) {
+              if (event.persisted) {
+                  window.location.reload();
+              }
+          });
+          </script>
 comments: false
-editor: visual
 ---
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
 
-### R packages
+# R packages {.main-title}
 
-------------------------------------------------------------------------
+![](ardsmaicr.png){width="20%" height="20%" fig-align="right"}
 
-<br />
+::: {.social-buttons}
+<a href="https://github.com/baillielab/ARDSMAICr" class="btn-social"><i class="fab fa-github"></i></a>
+ARDSMAICr
+:::
 
-#### [<i class="bi bi-github"></i>](https://github.com/baillielab/ARDSMAICr) ARDSMAICR
-
-<br />
-
-![](ardsmaicr.png){width="25%" height="25%" fig-align="left"}
-
-<br />
-
+::: {.accompany}
 The ARDSMAICR package contains the results of a meta-analysis by information content (MAIC) of genome-wide studies of the host response to acute respiratory distress syndrome (ARDS). These data are accompanied by a range of helper functions useful for analysis.
-
-[Documentation](https://baillielab.github.io/ARDSMAICr/)
-
-<br />
-
-### Python
-
-------------------------------------------------------------------------
-
-<br />
-
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/pubmed_cli) PubMed CLI
-
-<br />
-
-![](pubmedcli.png){width="25%" height="25%" fig-align="left"} <br />
-
-A Python script that allows you to search PubMed for publications based on a specific query term and a specified number of days back. The script utilizes the Biopython library to interact with the PubMed database.
-
-Features:
-
--   Search PubMed for recent publications using a specific query term
-
--   Specify the number of days back to search
-
--   Fetch article details including title, authors, journal, publication date, PubMed ID, and DOI URL
-
--   View abstracts of selected articles
-
--   Open article URLs in default browser
-
--   Option to output the results to a CSV file
-
-<br />
-
-### Websites
-
-------------------------------------------------------------------------
-
-<br />
-
-#### [<i class="bi bi-link"></i>](https://baillielab.net/maic/ards/docs/home/) ARDS Genomics website
-
-<br />
-
-![](ardsgenomics.png){width="75%" height="75%" fig-align="center"}
-
-<br />
-
-#### [<i class="bi bi-link"></i>](https://panthertrial.netlify.app/docs/home/index.html) PANTHER intervention selection website
-
-<br />
-
-![](panther.png){fig-align="center" width="50%"}
-
-<br />
-
-#### [<i class="bi bi-link"></i>](https://globalardsdefinition.org) New Global ARDS Definition website
-
-<br />
-
-::: {style="text-align: center;"}
-![](ardsglobal.png){width="35%"}
 :::
 
 <br />
 
-### Data
+:::
+:::
+:::
 
-------------------------------------------------------------------------
-
-<br />
-
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Combining-ECMO-and-MSCs-for-ARDS) Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep
-
-<br />
-
-Physiological and biochemical data presented in <https://doi.org/10.1164/rccm.201911-2143OC>
-
-<br />
-
-#### [<i class="bi bi-github"></i>](https://github.com/JonathanEMillar/Pre-clinical-ARDS-sub-phenotypes) Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study
-
-<br />
-
-Data and code to reproduce the analysis presented in <https://doi.org/10.14814/phy2.15048>

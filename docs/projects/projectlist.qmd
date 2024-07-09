@@ -1,31 +1,49 @@
 ---
 title: ""
-author: ""
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
+    include-in-header:
+      - text: |
+          <script>
+          window.addEventListener('pageshow', function(event) {
+              if (event.persisted) {
+                  window.location.reload();
+              }
+          });
+          </script>
 comments: false
-citation: false
-listing: 
-  contents:
-    - "*.qmd"
-  type: grid
-  fields: [image, title, description]
-  sort: "date desc"
-  filter-ui: false
-  sort-ui: false
-  image-align: left
-  image-height: 100%
-format: 
-  html: 
-    page-layout: full
-title-block-banner: false
 ---
+<script src="https://kit.fontawesome.com/caafde3ada.js" crossorigin="anonymous"></script>
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
 
+# Current Projects {.main-title}
+
+<br>
+
+::: {.image-content}
+![](../../images/embeddings.webp){width=20%}
+:::
+
+::: {.title}
+Functional Representation of Gene Signatures Embeddings Generator
+:::
+
+::: {.accompany}
+A streamlit app to codelessly generate gene signature embeddings based on FRoGS (Nat. Commun. 2024)
 <br/>
-
-### Current projects
-
 <br/>
+:::
 
-Here you can view various apps and gizmos I’ve created. Have a play through some of them let me know what you think!
+::: {.social-buttons}
+<a href="https://frogsembeddings.streamlit.app/" class="btn-social"><i class="fa-light fa-browser fa-beat"></i></a>
+<a href="https://github.com/JonathanEMillar/FroGS_streamlit_app" class="btn-social"><i class="fab fa-github"></i></a>
+<a href="https://doi.org/10.1038/s41467-024-46089-y" class="btn-social"><i class="fa-sharp fa-light fa-memo"></i></a>
+:::
 
-<br/>
-
+:::
+:::
+:::

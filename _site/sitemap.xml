@@ -2,30 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jemillar.io/docs/analyses/phind_rnaseq.html</loc>
-    <lastmod>2024-06-27T10:24:31.339Z</lastmod>
+    <lastmod>2024-07-09T20:04:58.585Z</lastmod>
   </url>
   <url>
-    <loc>https://jemillar.io/docs/projects/projectlist.html</loc>
-    <lastmod>2024-07-04T12:48:46.854Z</lastmod>
+    <loc>https://jemillar.io/docs/software/softlist.html</loc>
+    <lastmod>2024-07-09T15:07:25.458Z</lastmod>
   </url>
   <url>
-    <loc>https://jemillar.io/docs/papers/publist.html</loc>
-    <lastmod>2024-07-04T13:12:40.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jemillar.io/docs/home/index.html</loc>
-    <lastmod>2024-07-06T21:44:59.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jemillar.io/docs/contact/contact.html</loc>
-    <lastmod>2024-07-04T11:32:08.305Z</lastmod>
+    <loc>https://jemillar.io/docs/about/index.html</loc>
+    <lastmod>2024-07-09T19:59:25.034Z</lastmod>
   </url>
   <url>
     <loc>https://jemillar.io/docs/projects/FroGS_generator/embeddings.html</loc>
     <lastmod>2024-07-04T12:45:40.190Z</lastmod>
   </url>
   <url>
-    <loc>https://jemillar.io/docs/software/softlist.html</loc>
-    <lastmod>2024-05-01T12:13:35.175Z</lastmod>
+    <loc>https://jemillar.io/docs/papers/eds.html</loc>
+    <lastmod>2024-07-09T18:48:24.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/papers/books.html</loc>
+    <lastmod>2024-07-09T18:48:24.654Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/home/index.html</loc>
+    <lastmod>2024-07-09T18:48:24.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/contact/contact.html</loc>
+    <lastmod>2024-07-09T19:00:48.112Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/papers/publist.html</loc>
+    <lastmod>2024-07-09T18:48:24.353Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/papers/letters.html</loc>
+    <lastmod>2024-07-09T18:48:24.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/projects/projectlist.html</loc>
+    <lastmod>2024-07-09T14:10:20.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/software/python.html</loc>
+    <lastmod>2024-07-09T19:02:17.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jemillar.io/docs/software/web.html</loc>
+    <lastmod>2024-07-09T19:17:35.503Z</lastmod>
   </url>
 </urlset>

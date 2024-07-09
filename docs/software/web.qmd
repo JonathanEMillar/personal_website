@@ -1,0 +1,67 @@
+---
+title: ""
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
+    include-in-header:
+      - text: |
+          <script>
+          window.addEventListener('pageshow', function(event) {
+              if (event.persisted) {
+                  window.location.reload();
+              }
+          });
+          </script>
+comments: false
+---
+
+<script src="https://kit.fontawesome.com/caafde3ada.js" crossorigin="anonymous"></script>
+<style>
+.accompany a {
+    color: #3aafa9; /* Change this to your desired color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.accompany a:hover {
+    color: #2b7a78; /* Change this to your desired hover color */
+    text-decoration: none;
+}
+
+</style>
+
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
+
+
+# Web {.main-title}
+
+<br>
+
+::: {.social-buttons}
+<a href="https://globalardsdefinition.org" class="btn-social"><i class="fa-light fa-browser"></i></a>
+New Global ARDS Definition 
+:::
+
+::: {.accompany}
+A website build for dissemination of the New Global ARDS Definition ([*Am. J. Respir. Crit. Care Med.* 2023](https://www.atsjournals.org/doi/10.1164/rccm.202303-0558WS?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)).
+:::
+
+<br>
+
+::: {.social-buttons}
+<a href="https://panthertrial.netlify.app/docs/home/index.html" class="btn-social"><i class="fa-light fa-browser"></i></a>
+PANTHER Interventions 
+:::
+
+::: {.accompany}
+A website build to describe and document the prcoesses for prioritising interventions for entry to the Precision medicine Adaptive Network platform Trial in Hypoxaemic acutE respiratory failuRe ([PANTHER](https://panthertrial.org)).
+:::
+
+<br />
+
+:::
+:::
+:::

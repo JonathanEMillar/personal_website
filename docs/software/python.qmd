@@ -1,0 +1,54 @@
+---
+title: ""
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <script>
+          window.addEventListener('pageshow', function(event) {
+              if (event.persisted) {
+                  window.location.reload();
+              }
+          });
+          </script>
+comments: false
+---
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
+
+# Python modules {.main-title}
+
+![](pubmedcli.png){width="20%" height="20%" fig-align="right"}
+
+::: {.social-buttons}
+<a href="https://github.com/baillielab/pubmed_cli" class="btn-social"><i class="fab fa-github"></i></a>
+PubMed CLI
+:::
+
+::: {.accompany}
+A Python cli that allows you to search PubMed for publications based on a specific query term and a specified number of days back. The module use the Biopython library to interact with the PubMed database.
+
+Features:
+  
+  -   Search PubMed for recent publications using a specific query term
+
+-   Specify the number of days back to search
+
+-   Fetch article details including title, authors, journal, publication date, PubMed ID, and DOI URL
+
+-   View abstracts of selected articles
+
+-   Open article URLs in default browser
+
+-   Option to output the results to a CSV file
+:::
+
+<br />
+
+:::
+:::
+:::

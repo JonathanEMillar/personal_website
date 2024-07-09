@@ -1,0 +1,79 @@
+---
+title: ""
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <script>
+          window.addEventListener('pageshow', function(event) {
+              if (event.persisted) {
+                  window.location.reload();
+              }
+          });
+          </script>
+comments: false
+---
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
+# About me {.main-title}
+::: {.accompany}
+I am a Senior Clinical Research Fellow at the University of Edinburgh's Baillie-Gifford Pandemic Science Hub and an Honorary Consultant in Intensive Care Medicine. My career spans the realms of clinical practice, cutting-edge research, and technological innovation, driven by a passion for improving patient outcomes in critical care.
+:::
+::: {.title}
+Clinical Expertise
+:::
+::: {.accompany}
+With over a decade of experience in intensive care medicine, I've honed my skills in managing complex cases, particularly in acute severe respiratory failure and extracorporeal life support. My clinical work at Scotland's largest critical care department and major trauma centre keeps me grounded in the day-to-day realities of patient care, informing and inspiring my research endeavours.
+:::
+::: {.title}
+Research Focus
+:::
+::: {.accompany}
+My research interests lie at the exciting intersection of functional genomics, foundation models, and their applications to clinical trials. I've played key roles in ground breaking studies, including the world's largest critical care genome-wide association study (GenOMICC) and the international PANTHER phase II platform trial for acute respiratory failure.
+::: 
+::: {.title}
+Achievements and Impact
+::: 
+::: {.accompany}
+With over 50 original articles published and more than 6,500 citations, my work has contributed to the field of critical care medicine. I've secured over £20 million in research funding and have been recognised with several awards, including an NHMRC Doctoral Fellowship.
+::: 
+::: {.title}
+Interdisciplinary Collaboration
+:::
+::: {.accompany}
+I thrive on collaboration, working with researchers across the UK, Europe, North America, and Australia. This global network allows me to tackle complex medical challenges from multiple perspectives, fostering innovation and driving progress in critical care research.
+::: 
+::: {.title}
+Beyond Academia
+::: 
+::: {.accompany}
+Recently, my focus has shifted towards exploring AI applications in genomics and clinical trials. I'm passionate about translating cutting-edge research into real-world clinical settings, aiming to bridge the gap between laboratory discoveries and bedside care.
+::: 
+::: {.title}
+Personal Philosophy
+::: 
+::: {.accompany}
+I believe in the power of interdisciplinary approaches to solve complex medical problems. My goal is to leverage my unique blend of clinical experience, research expertise, and technological insight to drive meaningful change in medicine, ultimately improving outcomes for critically ill patients.
+**Looking ahead, I'm excited about the possibilities that lie at the intersection of genomics, AI, and critical care. I'm always open to new collaborations and opportunities that can help turn scientific discoveries into life-saving interventions.**
+:::
+:::
+
+<br />
+
+<br />
+
+::: {.image-content}
+<br />
+
+<br />
+
+<br />
+
+![](../../images/DSC_6910.jpg){width=80%}
+:::
+:::
+:::

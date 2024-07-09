@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Johnny Millar</title>
+<title></title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,35 +25,18 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -68,27 +51,29 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});
+</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="styles_index.css">
-<meta name="twitter:title" content="Johnny Millar">
+<meta name="twitter:title" content="">
 <meta name="twitter:creator" content="@jemillarni">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/favicon.png" alt="" class="navbar-logo">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -96,7 +81,12 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../../docs/home/index.html" aria-current="page"> 
-<span class="menu-text">Johnny Millar</span></a>
+<span class="menu-text"><strong>JOHNNY MILLAR</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/about/index.html"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
@@ -108,127 +98,80 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/software/softlist.html"> <i class="bi bi-terminal" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-softwaredata" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-terminal" role="img">
 </i> 
-<span class="menu-text">Software/Data</span></a>
+ <span class="menu-text">Software/Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-softwaredata">    
+        <li>
+    <a class="dropdown-item" href="../../docs/software/softlist.html">
+ <span class="dropdown-text">R</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-person-rolodex" role="img">
-</i> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="../../docs/software/python.html">
+ <span class="dropdown-text">Python</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+        <li>
+    <a class="dropdown-item" href="../../docs/software/web.html">
+ <span class="dropdown-text">Web</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JonathanEMillar"> <i class="bi bi-github" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-map" role="img">
 </i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jemillarni"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:jonathan.millar@ed.ac.uk"> <i class="bi bi-envelope" role="img">
-</i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
 
 
 
 
-<div class="quarto-about-jolla content column-page">
-  <img src="../../images/DSC_6910_full.jpg" class="about-image
-  rectangle " style="width: 40em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Johnny Millar</h1>
+<p><br></p>
+<div class="container-fluid">
+<div class="content-wrapper">
+<div class="text-content custom-text-container">
+<p><br> <br> <br> <br></p>
+<section id="dr-johnny-millar" class="level1 main-title">
+<h1 class="main-title">DR JOHNNY MILLAR</h1>
+<div class="title" style="font-weight: bold;">
+<p>Senior Clinical Research Fellow &amp; Honorary Consultant in ICM</p>
 </div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header><div id="hero-heading">
-<p><strong>Senior Clinical Research Fellow &amp; Honorary Consultant in Intensive Care Medicine</strong></p>
+<div class="accompany">
 <p>The University of Edinburgh and the Queen Elizabeth University Hospital, Glasgow</p>
-<div class="about-wrapper">
-<div class="about-dropdown">
-<button id="about-toggle" class="about-toggle"> <i class="fas fa-info-circle"></i> About me </button>
-<div id="about-content" class="about-content" style="display: none;">
-<p>My research interests include computational biology applied to the lung, the integration of deep-learning and clinical trials, and the functional genomics of ARDS.</p>
-<p>I completed my PhD with Prof John Fraser and Prof Danny McAuley, studying the role of mesenchymal stem cells and ECMO in ARDS.</p>
-<p>Since moving to Edinburgh in 2020, I have worked with Prof Kenneth Baillie at the Baillie-Gifford Pandemic Science Hub, Institute of Regeneration &amp; Repair.</p>
-I have contributed to the Genetics of Mortality in Critical Care (GenOMICC) study and am working to develop <em>in-silico</em> and <em>in-vitro</em> platforms to better understand the functional genomics of ARDS and to discover novel treatments.
+</div>
+<div class="social-buttons">
+<p><a href="https://github.com/JonathanEMillar" class="btn-social"><i class="fab fa-github"></i></a> <a href="https://twitter.com/jemillarni" class="btn-social"><i class="fab fa-twitter"></i></a> <a href="https://orcid.org/0000-0002-4853-9377" class="btn-social" aria-label="ORCID"><i class="fab fa-orcid"></i></a> <a href="https://scholar.google.com/citations?user=I8I6g0IAAAAJ&amp;hl=en" class="btn-social" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a> <a href="https://www.linkedin.com/in/your-linkedin-profile" class="btn-social" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> <a href="mailto:jonathan.millar@ed.ac.uk" class="btn-social"><i class="fas fa-envelope"></i></a></p>
+</div>
+</section>
+</div>
+<div class="image-content">
+<p><img src="../../images/cartoon_small.png" class="img-fluid" style="width:100.0%"></p>
 </div>
 </div>
 </div>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/jemillarni" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com/JonathanEMillar" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:jonathan.millar@ed.ac.uk" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const toggleButton = document.getElementById('about-toggle');
-  const content = document.getElementById('about-content');
-
-  if (!toggleButton || !content) {
-    console.error('About toggle button or content not found');
-    return;
-  }
-
-  toggleButton.addEventListener('click', function(event) {
-    event.stopPropagation();
-    content.style.display = content.style.display === 'none' ? 'block' : 'none';
-    console.log('Toggle button clicked, content display:', content.style.display);
-  });
-
-  document.addEventListener('click', function(event) {
-    if (content.style.display === 'block' && !content.contains(event.target) && event.target !== toggleButton) {
-      content.style.display = 'none';
-      console.log('Clicked outside, hiding content');
-    }
-  });
-});
-</script>
 
 
 
 
-</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -249,150 +192,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
   };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

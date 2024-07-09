@@ -1,1 +1,153 @@
 /* css styles */
+
+
+.navbar a {
+    color: #17252a;  /* Adjust this color as needed for good contrast */
+}
+
+.navbar {
+    background-color: #3aafa9;
+}
+
+.navbar a:hover {
+    color: #3aafa9;  /* This is the color of your CTA button, for consistency */
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #17252a !important;
+}
+
+.navbar .nav-item.active {
+    background-color: transparent !important;
+}
+
+.navbar .nav-item.active a {
+    color: #17252a !important;
+}
+
+.navbar .nav-item.active a:hover,
+.navbar .nav-item a:hover {
+    color: #17252a !important; /* or any color that fits your design */
+}
+
+.navbar .nav-item.active a,
+.navbar .nav-item a.active,
+.navbar .nav-item.current-page a,
+.navbar a[aria-current="page"] {
+    color: #17252a !important;
+}
+
+.navbar {
+  font-size: 1.5rem; /* Increase the base font size for the navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Make the brand/title larger */
+}
+
+.nav-link {
+  font-size: 1.5rem; /* Increase the size of nav links */
+}
+
+/* If you're using Font Awesome icons in the navbar */
+.navbar .fas,
+.navbar .fab,
+.navbar .far {
+  font-size: 0.8rem; /* Make icons larger */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1.3rem; /* Adjust this value to increase/decrease spacing */
+}
+
+/* New dropdown styles */
+.navbar .dropdown-menu {
+    background-color: #3aafa9;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .dropdown-item {
+    color: #17252a;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    background-color: #2b7a78;
+    color: #ffffff;
+}
+
+.navbar .dropdown-toggle::after {
+    vertical-align: middle;
+}
+
+/* Ensure the dropdown aligns with the parent item */
+.navbar .nav-item.dropdown {
+    position: relative;
+}
+
+.navbar .dropdown-menu {
+    top: 100%;
+    left: 0;
+}
+
+/* Optional: Add a subtle transition effect */
+.navbar .dropdown-menu {
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+footer,
+.footer,
+footer.footer,
+.quarto-footer,
+footer.quarto-footer,
+.nav-footer,
+footer.nav-footer {
+  background-color: #3aafa9 !important;
+  border-top: none !important;
+  color: #17252a !important;
+  flex-shrink: 0;
+}
+
+footer *,
+.footer *,
+footer.footer *,
+.quarto-footer *,
+footer.quarto-footer *,
+.nav-footer *,
+footer.nav-footer * {
+  color: #17252a !important;
+}
+
+footer a,
+.footer a,
+footer.footer a,
+.quarto-footer a,
+footer.quarto-footer a,
+.nav-footer a,
+footer.nav-footer a {
+  color: #17252a !important;
+  text-decoration: underline;
+}
+
+footer a:hover,
+.footer a:hover,
+footer.footer a:hover,
+.quarto-footer a:hover,
+footer.quarto-footer a:hover,
+.nav-footer a:hover,
+footer.nav-footer a:hover {
+  color: #17252a !important;
+  text-decoration: none;
+}
+

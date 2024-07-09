@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Streamlit app to generate FroGS embeddings">
 
 <title></title>
 <style>
@@ -24,19 +23,19 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../../../images/favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,15 +53,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles_index.css">
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="Streamlit app to generate FroGS embeddings">
-<meta name="twitter:image" content="https://jemillar.io/docs/projects/FroGS_generator/umap.png">
 <meta name="twitter:creator" content="@jemillarni">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,21 +72,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/home/index.html"> 
+    <a class="nav-link" href="../../docs/home/index.html"> 
 <span class="menu-text"><strong>JOHNNY MILLAR</strong></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/about/index.html"> <i class="bi bi-person" role="img">
+    <a class="nav-link" href="../../docs/about/index.html"> <i class="bi bi-person" role="img">
 </i> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
+    <a class="nav-link" href="../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
 </i> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/papers/publist.html"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="../../docs/papers/publist.html"> <i class="bi bi-book" role="img">
 </i> 
 <span class="menu-text">Publications</span></a>
   </li>  
@@ -100,26 +98,26 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-softwaredata">    
         <li>
-    <a class="dropdown-item" href="../../../docs/software/softlist.html">
+    <a class="dropdown-item" href="../../docs/software/softlist.html">
  <span class="dropdown-text">R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/software/python.html">
+    <a class="dropdown-item" href="../../docs/software/python.html">
  <span class="dropdown-text">Python</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../docs/software/web.html">
+    <a class="dropdown-item" href="../../docs/software/web.html">
  <span class="dropdown-text">Web</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
+    <a class="nav-link" href="../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../docs/contact/contact.html"> <i class="bi bi-map" role="img">
+    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-map" role="img">
 </i> 
 <span class="menu-text">Contact</span></a>
   </li>  
@@ -131,60 +129,120 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
 
 
 
 
-<p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="umap.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
-</figure>
+<script src="https://kit.fontawesome.com/caafde3ada.js" crossorigin="anonymous"></script>
+<style>
+/* Existing styles */
+.year-ribbon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200%;
+}
+.year-button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #17252a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.year-button:hover, .year-button.active {
+    background-color: white;
+    color: #3aafa9;
+}
+.publications-list {
+    margin-top: 20px;
+}
+.publication-item {
+    margin-bottom: 15px;
+    display: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+.publication-item.active {
+    display: block;
+}
+.publication-item a {
+    color: #3aafa9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.publication-item a:hover {
+    text-decoration: none;
+}
+
+.accompany a {
+    color: #3aafa9; /* Change this to your desired color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.accompany a:hover {
+    color: #2b7a78; /* Change this to your desired hover color */
+    text-decoration: none;
+}
+
+</style>
+<div class="container-fluid">
+<div class="content-wrapper">
+<div class="text-content custom-text-container">
+<div class="social-buttons">
+<p><a href="https://orcid.org/0000-0002-4853-9377" class="btn-social" aria-label="ORCID"><i class="fab fa-orcid"></i></a> <a href="https://scholar.google.com/citations?user=I8I6g0IAAAAJ&amp;hl=en" class="btn-social" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a></p>
 </div>
-<p><br></p>
-<center>
-<section id="frogs-embeddings-generator" class="level3">
-<h3 class="anchored" data-anchor-id="frogs-embeddings-generator"><a href="https://frogsembeddings.streamlit.app">FroGS embeddings generator</a> <a href="https://github.com/JonathanEMillar/FroGS_streamlit_app"><i class="bi bi-github"></i></a></h3>
-</section></center>
-<p><br></p>
-<p>The app generates embeddings using the methods developed in:</p>
-<p>Chen, H., King, F.J., Zhou, B. et al.&nbsp;Drug target prediction through deep learning functional representation of gene signatures. <em>Nature Commun.</em> 15, 1853 (2024). <a href="https://doi.org/10.1038/s41467-024-46089-y" class="uri">https://doi.org/10.1038/s41467-024-46089-y</a></p>
-<p><br></p>
-<section id="instructions" class="level4">
-<h4 class="anchored" data-anchor-id="instructions">Instructions</h4>
-<ol type="1">
-<li>Upload the GO embedding file (CSV format).</li>
-<li>Upload the ARCHS4 embedding file (CSV format).</li>
-<li>Upload your gene signatures text file (TXT format).</li>
-<li>Click the “Process Files” button to generate embeddings.</li>
-<li>Once processing is complete, a download button will appear.</li>
-<li>Click the “Download Embeddings CSV” button to download the generated embeddings file.</li>
-</ol>
+<section id="book-chapters" class="level2 title">
+<h2 data-anchor-id="book-chapters">Book chapters</h2>
 </section>
-<section id="important-notes" class="level4">
-<h4 class="anchored" data-anchor-id="important-notes">Important Notes</h4>
-<ul>
-<li>The gene signatures file should be a text file where each line represents a gene signature.</li>
-<li>Each line should start with the signature name, followed by a comma, and then a comma-separated list of genes.</li>
-<li>Ensure that the genes in your list match the gene identifiers used in the embedding files (i.e., NCBI gene IDs).</li>
-<li>The embedding files should be in CSV format with gene IDs in the first column and embedding values in the subsequent columns.</li>
-</ul>
-<p><a href="../analyses/processed_data/gene_vec_go_256.csv">Precomputed GO embeddings</a></p>
-<p><a href="../analyses/processed_data/gene_archs4_go_256.csv">Precomputed ARCHS4 embeddings</a></p>
-
-
+<div class="year-ribbon">
+<!-- Year buttons will be dynamically added here -->
+</div>
+<div class="publications-list">
+<!-- Publication items will be dynamically added here -->
+</div>
+<section id="original-articles" class="level3 accompany">
+<h3 data-anchor-id="original-articles"><a href="../../docs/papers/publist.html">Original articles</a></h3>
 </section>
+<section id="editorials" class="level3 accompany">
+<h3 data-anchor-id="editorials"><a href="../../docs/papers/eds.html">Editorials</a></h3>
+</section>
+<section id="letters" class="level3 accompany">
+<h3 data-anchor-id="letters"><a href="../../docs/papers/letters.html">Letters</a></h3>
+</section>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var acc = document.getElementsByClassName("accordion-header");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                panel.classList.remove("active");
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                panel.classList.add("active");
+            }
+        });
+    }
+});
+</script>
 
 
-</main> <!-- /main -->
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -593,6 +651,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script src="publications_books.js"></script>
 
 
 

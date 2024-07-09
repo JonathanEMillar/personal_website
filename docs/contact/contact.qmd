@@ -1,7 +1,14 @@
 ---
 title: ""
-editor: visual
+format:
+  html:
+    page-layout: custom
+    css: styles_index.css
 ---
+
+::: {.container-fluid}
+::: {.content-wrapper}
+::: {.text-content .custom-text-container}
 
 #### Baillie-Gifford Pandemic Science Hub
 
@@ -31,28 +38,34 @@ leaflet() %>%
 
 <br />
 
-<br />
-
-#### The Roslin Institute
+#### Queen Elizabeth University Hospital, Glasgow
 
 <br />
 
-Baillie Lab
+Department of Critical Care
 
-The Roslin Institute
+Queen Elizabeth University Hospital
 
-Easter Bush Campus
+1345 Govan Rd
 
-Midlothian
+Glasgow
 
-EH25 9RG
+G51 4TF
 
-<i class="bi bi-telephone"></i> +44 (0)131 651 9100
+<i class="bi bi-telephone"></i> +44 (0)141 201 1100
 
 ```{r}
 #| echo: false
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lat=55.865734832071944, lng=-3.198557142327629, popup="The Roslin Institute")
+  addMarkers(lat=55.86222, lng=-4.34111, popup="QEUH")
 ```
+
+:::
+:::
+:::
+
+<br />
+
+<br />

@@ -25,36 +25,18 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,26 +51,29 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});
+</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles_index.css">
 <meta name="twitter:title" content="">
 <meta name="twitter:creator" content="@jemillarni">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/favicon.png" alt="" class="navbar-logo">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -96,7 +81,12 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../docs/home/index.html"> 
-<span class="menu-text">Johnny Millar</span></a>
+<span class="menu-text"><strong>JOHNNY MILLAR</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/about/index.html"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
@@ -108,178 +98,76 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../../docs/software/softlist.html" aria-current="page"> <i class="bi bi-terminal" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-softwaredata" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-terminal" role="img">
 </i> 
-<span class="menu-text">Software/Data</span></a>
+ <span class="menu-text">Software/Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-softwaredata">    
+        <li>
+    <a class="dropdown-item" href="../../docs/software/softlist.html">
+ <span class="dropdown-text">R</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-person-rolodex" role="img">
-</i> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="../../docs/software/python.html">
+ <span class="dropdown-text">Python</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+        <li>
+    <a class="dropdown-item" href="../../docs/software/web.html">
+ <span class="dropdown-text">Web</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JonathanEMillar"> <i class="bi bi-github" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-map" role="img">
 </i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jemillarni"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:jonathan.millar@ed.ac.uk"> <i class="bi bi-envelope" role="img">
-</i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="-1">
-    <h2 id="toc-title">Software/Data</h2>
-   
-  <ul>
-  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R packages</a>
-  <ul>
-  <li><a href="#ardsmaicr" id="toc-ardsmaicr" class="nav-link" data-scroll-target="#ardsmaicr"><i class="bi bi-github"></i> ARDSMAICR</a></li>
-  </ul></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a>
-  <ul>
-  <li><a href="#pubmed-cli" id="toc-pubmed-cli" class="nav-link" data-scroll-target="#pubmed-cli"><i class="bi bi-github"></i> PubMed CLI</a></li>
-  </ul></li>
-  <li><a href="#websites" id="toc-websites" class="nav-link" data-scroll-target="#websites">Websites</a>
-  <ul>
-  <li><a href="#ards-genomics-website" id="toc-ards-genomics-website" class="nav-link" data-scroll-target="#ards-genomics-website"><i class="bi bi-link"></i> ARDS Genomics website</a></li>
-  <li><a href="#panther-intervention-selection-website" id="toc-panther-intervention-selection-website" class="nav-link" data-scroll-target="#panther-intervention-selection-website"><i class="bi bi-link"></i> PANTHER intervention selection website</a></li>
-  <li><a href="#new-global-ards-definition-website" id="toc-new-global-ards-definition-website" class="nav-link" data-scroll-target="#new-global-ards-definition-website"><i class="bi bi-link"></i> New Global ARDS Definition website</a></li>
-  </ul></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
-  <ul>
-  <li><a href="#combined-mesenchymal-stromal-cell-therapy-and-extracorporeal-membrane-oxygenation-in-acute-respiratory-distress-syndrome.-a-randomized-controlled-trial-in-sheep" id="toc-combined-mesenchymal-stromal-cell-therapy-and-extracorporeal-membrane-oxygenation-in-acute-respiratory-distress-syndrome.-a-randomized-controlled-trial-in-sheep" class="nav-link" data-scroll-target="#combined-mesenchymal-stromal-cell-therapy-and-extracorporeal-membrane-oxygenation-in-acute-respiratory-distress-syndrome.-a-randomized-controlled-trial-in-sheep"><i class="bi bi-github"></i> Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep</a></li>
-  <li><a href="#characterizing-pre-clinical-sub-phenotypic-models-of-acute-respiratory-distress-syndrome-an-experimental-ovine-study" id="toc-characterizing-pre-clinical-sub-phenotypic-models-of-acute-respiratory-distress-syndrome-an-experimental-ovine-study" class="nav-link" data-scroll-target="#characterizing-pre-clinical-sub-phenotypic-models-of-acute-respiratory-distress-syndrome-an-experimental-ovine-study"><i class="bi bi-github"></i> Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study</a></li>
-  </ul></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
 
 
 
 
-<section id="r-packages" class="level3">
-<h3 class="anchored" data-anchor-id="r-packages">R packages</h3>
-<hr>
-<p><br></p>
-<section id="ardsmaicr" class="level4">
-<h4 class="anchored" data-anchor-id="ardsmaicr"><a href="https://github.com/baillielab/ARDSMAICr"><i class="bi bi-github"></i></a> ARDSMAICR</h4>
-<p><br></p>
-<div class="quarto-figure quarto-figure-left">
+<div class="container-fluid">
+<div class="content-wrapper">
+<section id="r-packages" class="level1 main-title text-content custom-text-container">
+<h1 class="main-title">R packages</h1>
+<div class="quarto-figure quarto-figure-right">
 <figure class="figure">
-<p><img src="ardsmaicr.png" class="quarto-figure quarto-figure-left figure-img" style="width:25.0%;height:25.0%"></p>
+<p><img src="ardsmaicr.png" class="quarto-figure quarto-figure-right figure-img" style="width:20.0%;height:20.0%"></p>
 </figure>
 </div>
-<p><br></p>
+<div class="social-buttons">
+<p><a href="https://github.com/baillielab/ARDSMAICr" class="btn-social"><i class="fab fa-github"></i></a> ARDSMAICr</p>
+</div>
+<div class="accompany">
 <p>The ARDSMAICR package contains the results of a meta-analysis by information content (MAIC) of genome-wide studies of the host response to acute respiratory distress syndrome (ARDS). These data are accompanied by a range of helper functions useful for analysis.</p>
-<p><a href="https://baillielab.github.io/ARDSMAICr/">Documentation</a></p>
-<p><br></p>
-</section>
-</section>
-<section id="python" class="level3">
-<h3 class="anchored" data-anchor-id="python">Python</h3>
-<hr>
-<p><br></p>
-<section id="pubmed-cli" class="level4">
-<h4 class="anchored" data-anchor-id="pubmed-cli"><a href="https://github.com/JonathanEMillar/pubmed_cli"><i class="bi bi-github"></i></a> PubMed CLI</h4>
-<p><br></p>
-<p><img src="pubmedcli.png" class="quarto-figure quarto-figure-left" style="width:25.0%;height:25.0%"> <br></p>
-<p>A Python script that allows you to search PubMed for publications based on a specific query term and a specified number of days back. The script utilizes the Biopython library to interact with the PubMed database.</p>
-<p>Features:</p>
-<ul>
-<li><p>Search PubMed for recent publications using a specific query term</p></li>
-<li><p>Specify the number of days back to search</p></li>
-<li><p>Fetch article details including title, authors, journal, publication date, PubMed ID, and DOI URL</p></li>
-<li><p>View abstracts of selected articles</p></li>
-<li><p>Open article URLs in default browser</p></li>
-<li><p>Option to output the results to a CSV file</p></li>
-</ul>
-<p><br></p>
-</section>
-</section>
-<section id="websites" class="level3">
-<h3 class="anchored" data-anchor-id="websites">Websites</h3>
-<hr>
-<p><br></p>
-<section id="ards-genomics-website" class="level4">
-<h4 class="anchored" data-anchor-id="ards-genomics-website"><a href="https://baillielab.net/maic/ards/docs/home/"><i class="bi bi-link"></i></a> ARDS Genomics website</h4>
-<p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="ardsgenomics.png" class="quarto-figure quarto-figure-center figure-img" style="width:75.0%;height:75.0%"></p>
-</figure>
 </div>
 <p><br></p>
 </section>
-<section id="panther-intervention-selection-website" class="level4">
-<h4 class="anchored" data-anchor-id="panther-intervention-selection-website"><a href="https://panthertrial.netlify.app/docs/home/index.html"><i class="bi bi-link"></i></a> PANTHER intervention selection website</h4>
-<p><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="panther.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
-</figure>
 </div>
-<p><br></p>
-</section>
-<section id="new-global-ards-definition-website" class="level4">
-<h4 class="anchored" data-anchor-id="new-global-ards-definition-website"><a href="https://globalardsdefinition.org"><i class="bi bi-link"></i></a> New Global ARDS Definition website</h4>
-<p><br></p>
-<div style="text-align: center;">
-<p><img src="ardsglobal.png" class="img-fluid" style="width:35.0%"></p>
 </div>
-<p><br></p>
-</section>
-</section>
-<section id="data" class="level3">
-<h3 class="anchored" data-anchor-id="data">Data</h3>
-<hr>
-<p><br></p>
-<section id="combined-mesenchymal-stromal-cell-therapy-and-extracorporeal-membrane-oxygenation-in-acute-respiratory-distress-syndrome.-a-randomized-controlled-trial-in-sheep" class="level4">
-<h4 class="anchored" data-anchor-id="combined-mesenchymal-stromal-cell-therapy-and-extracorporeal-membrane-oxygenation-in-acute-respiratory-distress-syndrome.-a-randomized-controlled-trial-in-sheep"><a href="https://github.com/JonathanEMillar/Combining-ECMO-and-MSCs-for-ARDS"><i class="bi bi-github"></i></a> Combined Mesenchymal Stromal Cell Therapy and Extracorporeal Membrane Oxygenation in Acute Respiratory Distress Syndrome. A Randomized Controlled Trial in Sheep</h4>
-<p><br></p>
-<p>Physiological and biochemical data presented in <a href="https://doi.org/10.1164/rccm.201911-2143OC" class="uri">https://doi.org/10.1164/rccm.201911-2143OC</a></p>
-<p><br></p>
-</section>
-<section id="characterizing-pre-clinical-sub-phenotypic-models-of-acute-respiratory-distress-syndrome-an-experimental-ovine-study" class="level4">
-<h4 class="anchored" data-anchor-id="characterizing-pre-clinical-sub-phenotypic-models-of-acute-respiratory-distress-syndrome-an-experimental-ovine-study"><a href="https://github.com/JonathanEMillar/Pre-clinical-ARDS-sub-phenotypes"><i class="bi bi-github"></i></a> Characterizing pre-clinical sub-phenotypic models of acute respiratory distress syndrome: An experimental ovine study</h4>
-<p><br></p>
-<p>Data and code to reproduce the analysis presented in <a href="https://doi.org/10.14814/phy2.15048" class="uri">https://doi.org/10.14814/phy2.15048</a></p>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -300,150 +188,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

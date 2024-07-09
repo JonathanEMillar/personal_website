@@ -6,7 +6,7 @@ format:
     css: styles_index.css
     include-after-body:
       - text: |
-          <script src="publications.js"></script>
+          <script src="publications_books.js"></script>
 ---
 <script src="https://kit.fontawesome.com/caafde3ada.js" crossorigin="anonymous"></script>
 <style>
@@ -77,7 +77,7 @@ format:
 
 ::: {.title}
 
-## Original Articles
+## Book chapters
 
 :::
 
@@ -91,6 +91,12 @@ format:
 
 ::: {.accompany}
 
+### [Original articles](publist.qmd)
+
+:::
+
+::: {.accompany}
+
 ### [Editorials](eds.qmd)
 
 :::
@@ -98,12 +104,6 @@ format:
 ::: {.accompany}
 
 ### [Letters](letters.qmd)
-
-:::
-
-::: {.accompany}
-
-### [Book chapters](books.qmd)
 
 :::
 

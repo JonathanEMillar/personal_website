@@ -25,36 +25,18 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,26 +51,28 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});
+</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles_index.css">
 <meta name="twitter:title" content="">
 <meta name="twitter:creator" content="@jemillarni">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/favicon.png" alt="" class="navbar-logo">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -96,7 +80,12 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../docs/home/index.html"> 
-<span class="menu-text">Johnny Millar</span></a>
+<span class="menu-text"><strong>JOHNNY MILLAR</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/about/index.html"> <i class="bi bi-person" role="img">
+</i> 
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../docs/projects/projectlist.html"> <i class="bi bi-stickies" role="img">
@@ -108,83 +97,61 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/software/softlist.html"> <i class="bi bi-terminal" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-softwaredata" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-terminal" role="img">
 </i> 
-<span class="menu-text">Software/Data</span></a>
+ <span class="menu-text">Software/Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-softwaredata">    
+        <li>
+    <a class="dropdown-item" href="../../docs/software/softlist.html">
+ <span class="dropdown-text">R</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-person-rolodex" role="img">
-</i> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="../../docs/software/python.html">
+ <span class="dropdown-text">Python</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+        <li>
+    <a class="dropdown-item" href="../../docs/software/web.html">
+ <span class="dropdown-text">Web</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../cv.pdf"> <i class="bi bi-file-earmark-person" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/JonathanEMillar"> <i class="bi bi-github" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/contact/contact.html"> <i class="bi bi-map" role="img">
 </i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jemillarni"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:jonathan.millar@ed.ac.uk"> <i class="bi bi-envelope" role="img">
-</i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-   
-  <ul>
-  <li><a href="#phind-rna-seq" id="toc-phind-rna-seq" class="nav-link active" data-scroll-target="#phind-rna-seq">PHIND RNA-seq</a>
-  <ul>
-  <li><a href="#nf-corerna-seq" id="toc-nf-corerna-seq" class="nav-link" data-scroll-target="#nf-corerna-seq">nf-core/rna-seq</a></li>
-  <li><a href="#transcript-abundance-to-count-matrices" id="toc-transcript-abundance-to-count-matrices" class="nav-link" data-scroll-target="#transcript-abundance-to-count-matrices">Transcript abundance to count matrices</a></li>
-  <li><a href="#outlier-detection-and-filtering" id="toc-outlier-detection-and-filtering" class="nav-link" data-scroll-target="#outlier-detection-and-filtering">Outlier detection and filtering</a></li>
-  <li><a href="#differential-expression" id="toc-differential-expression" class="nav-link" data-scroll-target="#differential-expression">Differential expression</a></li>
-  <li><a href="#functional-enrichment" id="toc-functional-enrichment" class="nav-link" data-scroll-target="#functional-enrichment">Functional enrichment</a></li>
-  <li><a href="#protein-protein-interaction" id="toc-protein-protein-interaction" class="nav-link" data-scroll-target="#protein-protein-interaction">Protein-protein interaction</a></li>
-  <li><a href="#overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" id="toc-overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" class="nav-link" data-scroll-target="#overlap-with-existing-inflammatory-subphenotype-rna-seq-studies">Overlap with existing inflammatory subphenotype RNA-seq studies</a></li>
-  <li><a href="#clustering-signatures-based-on-gene-embedding" id="toc-clustering-signatures-based-on-gene-embedding" class="nav-link" data-scroll-target="#clustering-signatures-based-on-gene-embedding">Clustering signatures based on gene embedding</a></li>
-  </ul></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
 
 
 
 
-<section id="phind-rna-seq" class="level3">
-<h3 class="anchored" data-anchor-id="phind-rna-seq">PHIND RNA-seq</h3>
+<div class="container-fluid">
+<div class="content-wrapper">
+<section id="phind-rna-seq" class="level3 text-content custom-text-container">
+<h3 data-anchor-id="phind-rna-seq">PHIND RNA-seq</h3>
 <hr>
 <p><br></p>
 <section id="nf-corerna-seq" class="level4">
-<h4 class="anchored" data-anchor-id="nf-corerna-seq">nf-core/rna-seq</h4>
+<h4 data-anchor-id="nf-corerna-seq">nf-core/rna-seq</h4>
 <p><br></p>
 <p>I used the <a href="https://nf-co.re/rnaseq/3.14.0">nf-core/rna-seq</a> pipeline (v3.14.0) to analyse RNA-sequencing data.</p>
 <p><a href="./processed_data/params_2024-04-05_04-23-19.json">params yaml</a></p>
@@ -193,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 </section>
 <section id="transcript-abundance-to-count-matrices" class="level4">
-<h4 class="anchored" data-anchor-id="transcript-abundance-to-count-matrices">Transcript abundance to count matrices</h4>
+<h4 data-anchor-id="transcript-abundance-to-count-matrices">Transcript abundance to count matrices</h4>
 <p><br></p>
 <p>I used the Bioconductor package <code>tximport</code> in R version 4.3.1 to summarise transcript-level estimates (salmon files) into a count matrix. Counts are length scaled transcripts per million (nTPM).</p>
 <p><em>Script</em> - <a href="./processed_data/01_tximport_DESeq2.R">01_tximport_DESeq2.R</a></p>
 <p><br></p>
 </section>
 <section id="outlier-detection-and-filtering" class="level4">
-<h4 class="anchored" data-anchor-id="outlier-detection-and-filtering">Outlier detection and filtering</h4>
+<h4 data-anchor-id="outlier-detection-and-filtering">Outlier detection and filtering</h4>
 <p><br></p>
 <p>I filtered all genes with ≤10 normalised TPM.</p>
 <p>At this step, I also filtered some genes which are related to U2 and are massively over expressed across the board. These were:</p>
@@ -221,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 </section>
 <section id="differential-expression" class="level4">
-<h4 class="anchored" data-anchor-id="differential-expression">Differential expression</h4>
+<h4 data-anchor-id="differential-expression">Differential expression</h4>
 <p><br></p>
 <p>I used <code>DESeq2</code> to perform differential expression analysis, based on subphenotype. I used the ‘il6_stnfr1_hco3_poc_alloc’ metadata column to assign samples to a subphenotype. Where this value was missing, I imputed it based on the ‘il6_stnfr1_hco3_elisa_alloc’ column. For sample GCTU_PN0090, I assumed the patient to be hypoinflammatory.</p>
 <p><em>Script</em> - <a href="./processed_data/04_DE.R">04_DE.R</a></p>
@@ -1117,17 +1084,17 @@ ul.task-list li input[type="checkbox"] {
 <p>AS - antisense</p>
 </details>
 <p><br></p>
-<p><img src="./processed_data/volcano_1.png" class="img-fluid"></p>
+<p><img src="./processed_data/volcano_1.png" class="img-fluid" style="width:60.0%"></p>
 <p><br></p>
 </section>
 <section id="functional-enrichment" class="level4">
-<h4 class="anchored" data-anchor-id="functional-enrichment">Functional enrichment</h4>
+<h4 data-anchor-id="functional-enrichment">Functional enrichment</h4>
 <p><br></p>
 <p>I performed functional enrichment of all significantly differentially expressed genes (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2), against the background of all genes with &gt; 10 nTPM.</p>
 <p>First, over representation analysis using GO, KEGG, Reactome, WikiPathways, and the Human Protein Atlas. I used the <code>grprofiler2</code> package, with ordered queires and a FDR &lt;0.01.</p>
 <p><em>Script</em> - <a href="./processed_data/05_functional_enrichment.R">05_functional_enrichment.R</a></p>
 <p><br></p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
+<div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Up-regulated genes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Down-regulated genes</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
@@ -1135,25 +1102,25 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>GO Biological Process</strong></p>
 <details>
 <summary>Click to expand</summary>
-<p><img src="./processed_data/up_go.png" class="img-fluid"></p>
+<p><img src="./processed_data/up_go.png" class="img-fluid" style="width:60.0%"></p>
 </details>
 <p><br></p>
 <p><strong>KEGG</strong></p>
 <details>
 <summary>Click to expand</summary>
-<p><img src="./processed_data/up_kegg.png" class="img-fluid"></p>
+<p><img src="./processed_data/up_kegg.png" class="img-fluid" style="width:60.0%"></p>
 </details>
 <p><br></p>
 <p><strong>Reactome</strong></p>
 <details>
 <summary>Click to expand</summary>
-<p><img src="./processed_data/up_reac.png" class="img-fluid"></p>
+<p><img src="./processed_data/up_reac.png" class="img-fluid" style="width:60.0%"></p>
 </details>
 <p><br></p>
 <p><strong>WikiPathways</strong></p>
 <details>
 <summary>Click to expand</summary>
-<p><img src="./processed_data/up_wp.png" class="img-fluid"></p>
+<p><img src="./processed_data/up_wp.png" class="img-fluid" style="width:60.0%"></p>
 </details>
 <p><br></p>
 <p><strong>Human Protein Atlas</strong></p>
@@ -1167,13 +1134,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="protein-protein-interaction" class="level4">
-<h4 class="anchored" data-anchor-id="protein-protein-interaction">Protein-protein interaction</h4>
+<h4 data-anchor-id="protein-protein-interaction">Protein-protein interaction</h4>
 <p><br></p>
 <p>I created a PPI network using STRINGdb and significantly differentially regulated genes (adj <em>P</em> &lt;0.1 and abs(Log2FC) &gt; 1.2). This mapped 59 proteins. There were 22 edges, giving an enrichment <em>P</em> value of 3.35e-05.</p>
 <p><em>Script</em> - <a href="./processed_data/06_protein_protein_interaction.R">06_protein_protein_interaction.R</a></p>
-<p><img src="./processed_data/string_vector_graphic_all.png" class="img-fluid"></p>
+<p><img src="./processed_data/string_vector_graphic_all.png" class="img-fluid" style="width:60.0%"></p>
 <p>I then MCL clustered this network, identifying 8 clusters.</p>
-<p><img src="./processed_data/string_vector_graphic_clusters.png" class="img-fluid"></p>
+<p><img src="./processed_data/string_vector_graphic_clusters.png" class="img-fluid" style="width:60.0%"></p>
 <p>The following enrich against Reactome:</p>
 <ul>
 <li>Cluster 2 - Classical antibody-mediated complement activation</li>
@@ -1184,7 +1151,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 </section>
 <section id="overlap-with-existing-inflammatory-subphenotype-rna-seq-studies" class="level4">
-<h4 class="anchored" data-anchor-id="overlap-with-existing-inflammatory-subphenotype-rna-seq-studies">Overlap with existing inflammatory subphenotype RNA-seq studies</h4>
+<h4 data-anchor-id="overlap-with-existing-inflammatory-subphenotype-rna-seq-studies">Overlap with existing inflammatory subphenotype RNA-seq studies</h4>
 <p><br></p>
 <p>Next, I considered the overlap between DEGs in PHIND with DEGs in two other RNA-seq studies:</p>
 <ul>
@@ -1195,15 +1162,15 @@ ul.task-list li input[type="checkbox"] {
 <p>I retrieved hyper vs.&nbsp;hypoinflammatory DEGs from these studies based on the same criteria - adj <em>P</em> value &lt;0.1 and abs(Log2FC) &gt; 1.2.</p>
 <p><br></p>
 <p><strong>Sarma</strong></p>
-<p><img src="./processed_data/sarma_overlap.png" class="img-fluid"></p>
+<p><img src="./processed_data/sarma_overlap.png" class="img-fluid" style="width:60.0%"></p>
 <p><strong>Sinha day 0</strong></p>
-<p><img src="./processed_data/sinha_d0_overlap.png" class="img-fluid"></p>
+<p><img src="./processed_data/sinha_d0_overlap.png" class="img-fluid" style="width:60.0%"></p>
 <p><strong>Sinha day 2</strong></p>
-<p><img src="./processed_data/sinha_d2_overlap.png" class="img-fluid"></p>
+<p><img src="./processed_data/sinha_d2_overlap.png" class="img-fluid" style="width:60.0%"></p>
 <p><br></p>
 </section>
 <section id="clustering-signatures-based-on-gene-embedding" class="level4">
-<h4 class="anchored" data-anchor-id="clustering-signatures-based-on-gene-embedding">Clustering signatures based on gene embedding</h4>
+<h4 data-anchor-id="clustering-signatures-based-on-gene-embedding">Clustering signatures based on gene embedding</h4>
 <p><br></p>
 <p>Given the limited overlap between studies based on gene identity. I embedded the DEGs (gene signatures) from each study using pre-derived functional embeddings:</p>
 <ul>
@@ -1213,7 +1180,7 @@ ul.task-list li input[type="checkbox"] {
 <p>To create a background, I randomly partitioned the PHIND data using the same proportions of hyper and hypoinflammatory patients, and iterated DE analysis 1000 times. This returned 208 random gene signatures with ≥ 10 genes.</p>
 <p><em>Script</em> - <a href="./processed_data/compute_embeddings.py">compute_embeddings.py</a></p>
 <p><br></p>
-<p><img src="./processed_data/umap_visualization.png" class="img-fluid"></p>
+<p><img src="./processed_data/umap_visualization.png" class="img-fluid" style="width:60.0%"></p>
 <p><br></p>
 <p>I then formally assessed whether the study derived signatures were more or less similar when compared to the background. I computed the pairwise Euclidean distance between all pairs of study signatures and from each study signature to each random signature.</p>
 <p>I then performed paired t tests and Wilcoxon signed-rank tests - comparing the means of the within-study distances to the study-to-random distances.</p>
@@ -1224,7 +1191,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The mean within-study distance was 0.28876 vs.&nbsp;0.45015 from study to random signatures.</p>
 <p><em>Script</em> - <a href="./processed_data/embeddings_similarity.py">embeddings_similarity.py</a></p>
 <p><br></p>
-<p><img src="./processed_data/distance_distribution.png" class="img-fluid"></p>
+<p><img src="./processed_data/distance_distribution.png" class="img-fluid" style="width:60.0%"></p>
 <p><br></p>
 <p>I also calculated an estimate of the effect size using Cohen’s d which was -2.89138, suggesting that the within study distances are smaller than study to random background and that the magnitude of this difference is substantial.</p>
 <p>To defend against assumptions in the t test and Wilcoxon ranked-sign test, I also conducted a permutation test:</p>
@@ -1237,12 +1204,14 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>The <em>P</em> value was &lt; 0.0001</p>
 <p><em>Script</em> - <a href="./processed_data/embeddings_cohensd_and_perm.py">embeddings_cohensd_and_perm.py</a></p>
-
-
 </section>
 </section>
+</div>
+</div>
 
-</main> <!-- /main -->
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1263,150 +1232,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
