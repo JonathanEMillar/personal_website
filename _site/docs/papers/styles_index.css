@@ -35,8 +35,8 @@ main {
 }
 
 .text-content {
-    flex: 1 1 60%;
-    max-width: 60%;
+    flex: 1 1 90%;
+    max-width: 90%;
     padding-right: 2rem;
 }
 
